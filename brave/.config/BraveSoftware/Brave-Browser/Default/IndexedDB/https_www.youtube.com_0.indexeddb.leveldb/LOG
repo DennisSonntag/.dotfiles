@@ -1,0 +1,14 @@
+2022/09/03-16:53:52.823 1480 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/03-16:53:52.823 1480 Recovering log #382
+2022/09/03-16:53:52.826 1480 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000382.log 
+2022/09/03-16:53:52.826 1480 Delete type=2 #383
+2022/09/03-16:53:52.826 1480 Delete type=2 #380
+2022/09/03-17:11:13.696 fcc Level-0 table #388: started
+2022/09/03-17:11:13.708 fcc Level-0 table #388: 1114330 bytes OK
+2022/09/03-17:11:13.712 fcc Delete type=0 #382
+2022/09/03-17:11:16.028 fcd Compacting 1@1 + 1@2 files
+2022/09/03-17:11:16.042 fcd Generated table #389@1: 878 keys, 55573 bytes
+2022/09/03-17:11:16.042 fcd Compacted 1@1 + 1@2 files => 55573 bytes
+2022/09/03-17:11:16.045 fcd compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/03-17:11:16.045 fcd Delete type=2 #388
+2022/09/03-17:11:16.045 fcd Delete type=2 #385

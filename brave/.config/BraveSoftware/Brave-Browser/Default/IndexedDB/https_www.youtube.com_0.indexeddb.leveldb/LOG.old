@@ -1,0 +1,7 @@
+2022/09/03-16:39:14.928 ff5 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/03-16:39:14.928 ff5 Recovering log #382
+2022/09/03-16:39:14.928 ff5 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000382.log 
+2022/09/03-16:39:15.379 fdc Compacting 1@1 + 1@2 files
+2022/09/03-16:39:15.403 fdc Generated table #385@1: 943 keys, 47366 bytes
+2022/09/03-16:39:15.403 fdc Compacted 1@1 + 1@2 files => 47366 bytes
+2022/09/03-16:39:15.414 fdc compacted to: files[ 0 0 1 0 0 0 0 ]

@@ -1,0 +1,6 @@
+2022/08/31-17:56:28.095 36245 Creating DB /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neovim.discourse.group_0.indexeddb.leveldb since it was missing.
+2022/08/31-17:56:28.113 36245 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neovim.discourse.group_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/31-18:01:14.821 3649f Level-0 table #5: started
+2022/08/31-18:01:14.824 3649f Level-0 table #5: 2857 bytes OK
+2022/08/31-18:01:14.828 3649f Delete type=0 #3
+2022/08/31-18:01:14.828 3649f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,6 @@
+2022/09/03-16:39:06.210 fde Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/09/03-16:39:06.210 fde Recovering log #371
+2022/09/03-16:39:06.211 fde Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000371.log 
+2022/09/03-16:48:10.760 fcd Level-0 table #375: started
+2022/09/03-16:48:10.771 fcd Level-0 table #375: 72374 bytes OK
+2022/09/03-16:48:10.777 fcd Delete type=0 #371

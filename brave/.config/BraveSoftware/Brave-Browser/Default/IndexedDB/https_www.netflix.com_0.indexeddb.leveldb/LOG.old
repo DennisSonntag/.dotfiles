@@ -1,0 +1,6 @@
+2022/08/24-23:07:02.311 7f50 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/24-23:07:02.311 7f50 Recovering log #3
+2022/08/24-23:07:02.312 7f50 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000003.log 
+2022/08/24-23:39:49.441 a8a2 Level-0 table #5: started
+2022/08/24-23:39:49.469 a8a2 Level-0 table #5: 2465550 bytes OK
+2022/08/24-23:39:49.473 a8a2 Delete type=0 #3
