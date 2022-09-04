@@ -9,6 +9,22 @@ return require("packer").startup(function(use)
 	use("MunifTanjim/nui.nvim")
 
 	use "lukas-reineke/indent-blankline.nvim"
+	--Stabalize new windows
+	use("luukvbaal/stabilize.nvim")
+
+	--Rust tools
+	use('simrat39/rust-tools.nvim')
+
+	-- Debugging
+	use('mfussenegger/nvim-dap')
+
+	--Folds
+	use { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' }
+	use("jghauser/fold-cycle.nvim")
+
+	--Shade
+	use("levouh/tint.nvim")
+	--[[ use("sunjon/shade.nvim") ]]
 
 	--Toggle term
 	use("akinsho/toggleterm.nvim")
@@ -26,6 +42,8 @@ return require("packer").startup(function(use)
 
 	--Colorscheme
 	use('navarasu/onedark.nvim')
+	--[[ use("projekt0n/github-nvim-theme") ]]
+	--[[ use { "catppuccin/nvim", as = "catppuccin" } ]]
 	--[[ use("folke/tokyonight.nvim") ]]
 	--[[ use("svrana/neosolarized.nvim") ]]
 	--[[ use("Mofiqul/vscode.nvim") ]]
@@ -81,6 +99,9 @@ return require("packer").startup(function(use)
 	--Mason
 	use("williamboman/mason.nvim")
 	use("williamboman/mason-lspconfig.nvim")
+
+	--Todo commen highlight
+	--[[ use("folke/todo-comments.nvim") ]]
 
 	--Lsp
 	use("neovim/nvim-lspconfig")

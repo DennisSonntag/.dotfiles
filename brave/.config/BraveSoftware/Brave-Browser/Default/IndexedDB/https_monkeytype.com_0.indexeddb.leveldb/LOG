@@ -1,23 +1,25 @@
-2022/09/02-22:15:35.931 721b Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/02-22:15:35.931 721b Recovering log #23
-2022/09/02-22:15:35.931 721b Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000023.log 
-2022/09/02-22:15:36.410 72bc Level-0 table #28: started
-2022/09/02-22:15:36.413 72bc Level-0 table #28: 736 bytes OK
-2022/09/02-22:15:36.418 72bc Delete type=0 #23
-2022/09/02-22:15:36.418 72bc Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/09/02-22:16:07.821 721b Compacting 1@1 + 1@2 files
-2022/09/02-22:16:07.826 721b Generated table #29@1: 42 keys, 4334 bytes
-2022/09/02-22:16:07.826 721b Compacted 1@1 + 1@2 files => 4334 bytes
-2022/09/02-22:16:07.831 721b compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/09/02-22:16:07.831 7b49 Level-0 table #31: started
-2022/09/02-22:16:07.834 7b49 Level-0 table #31: 8796 bytes OK
-2022/09/02-22:16:07.838 7b49 Delete type=0 #27
-2022/09/02-22:16:07.839 7b49 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/09/02-22:16:46.245 721b Compacting 1@1 + 1@2 files
-2022/09/02-22:16:46.254 721b Generated table #32@1: 42 keys, 4335 bytes
-2022/09/02-22:16:46.254 721b Compacted 1@1 + 1@2 files => 4335 bytes
-2022/09/02-22:16:46.258 721b compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/09/02-22:16:46.258 721b Delete type=2 #31
-2022/09/02-22:16:46.258 721b Delete type=2 #28
-2022/09/02-22:16:46.258 721b Delete type=2 #29
-2022/09/02-22:16:46.258 721b Delete type=2 #25
+2022/09/03-18:44:30.115 b54 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/03-18:44:30.116 b54 Recovering log #30
+2022/09/03-18:44:30.116 b54 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000030.log 
+2022/09/03-18:44:30.359 eea Level-0 table #35: started
+2022/09/03-18:44:30.362 eea Level-0 table #35: 8241 bytes OK
+2022/09/03-18:44:30.368 eea Delete type=0 #30
+2022/09/03-18:44:30.369 eea Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/09/03-18:45:08.822 b36 Compacting 1@1 + 1@2 files
+2022/09/03-18:45:08.832 b36 Generated table #36@1: 42 keys, 4340 bytes
+2022/09/03-18:45:08.832 b36 Compacted 1@1 + 1@2 files => 4340 bytes
+2022/09/03-18:45:08.835 b36 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/03-18:45:08.835 b36 Delete type=2 #35
+2022/09/03-18:45:08.835 b36 Delete type=2 #32
+2022/09/03-19:21:26.779 fb8 Level-0 table #38: started
+2022/09/03-19:21:26.782 fb8 Level-0 table #38: 7817 bytes OK
+2022/09/03-19:21:26.786 fb8 Delete type=0 #34
+2022/09/03-19:21:26.786 fb8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/09/03-19:21:26.786 fb8 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x009\x007\x008\x008\x004\x007\x001\x001\x004\x000\x00:\x00w\x00e\x00b\x00:\x007\x00e\x003\x001\x00b\x001\x005\x009\x005\x009\x00d\x006\x008\x00a\x00c\x000\x00a\x005\x001\x004\x007\x001' @ 702 : 1
+2022/09/03-19:21:26.786 fb8 Compacting 1@1 + 1@2 files
+2022/09/03-19:21:26.789 fb8 Generated table #39@1: 36 keys, 4191 bytes
+2022/09/03-19:21:26.789 fb8 Compacted 1@1 + 1@2 files => 4191 bytes
+2022/09/03-19:21:26.792 fb8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/03-19:21:26.792 fb8 Delete type=2 #36
+2022/09/03-19:21:26.792 fb8 Delete type=2 #38
+2022/09/03-19:21:26.792 fb8 Manual compaction at level-1 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x008\x009\x007\x008\x008\x004\x007\x001\x001\x004\x000\x00:\x00w\x00e\x00b\x00:\x007\x00e\x003\x001\x00b\x001\x005\x009\x005\x009\x00d\x006\x008\x00a\x00c\x000\x00a\x005\x001\x004\x007\x001' @ 702 : 1 .. (end); will stop at (end)

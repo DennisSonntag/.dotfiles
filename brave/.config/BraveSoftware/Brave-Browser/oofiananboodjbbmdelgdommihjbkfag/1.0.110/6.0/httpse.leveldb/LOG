@@ -1,5 +1,5 @@
-2022/09/03-16:39:06.383 fcd Recovering log #3
-2022/09/03-16:39:06.686 fcd Level-0 table #5: started
-2022/09/03-16:39:06.782 fcd Level-0 table #5: 2784740 bytes OK
-2022/09/03-16:39:06.797 fcd Delete type=3 #2
-2022/09/03-16:39:06.797 fcd Delete type=0 #3
+2022/09/03-17:16:52.117 472 Recovering log #3
+2022/09/03-17:16:52.201 472 Level-0 table #5: started
+2022/09/03-17:16:52.249 472 Level-0 table #5: 2784740 bytes OK
+2022/09/03-17:16:52.270 472 Delete type=3 #2
+2022/09/03-17:16:52.270 472 Delete type=0 #3

@@ -1,14 +1,21 @@
-2022/09/03-16:53:52.823 1480 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/03-16:53:52.823 1480 Recovering log #382
-2022/09/03-16:53:52.826 1480 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000382.log 
-2022/09/03-16:53:52.826 1480 Delete type=2 #383
-2022/09/03-16:53:52.826 1480 Delete type=2 #380
-2022/09/03-17:11:13.696 fcc Level-0 table #388: started
-2022/09/03-17:11:13.708 fcc Level-0 table #388: 1114330 bytes OK
-2022/09/03-17:11:13.712 fcc Delete type=0 #382
-2022/09/03-17:11:16.028 fcd Compacting 1@1 + 1@2 files
-2022/09/03-17:11:16.042 fcd Generated table #389@1: 878 keys, 55573 bytes
-2022/09/03-17:11:16.042 fcd Compacted 1@1 + 1@2 files => 55573 bytes
-2022/09/03-17:11:16.045 fcd compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/09/03-17:11:16.045 fcd Delete type=2 #388
-2022/09/03-17:11:16.045 fcd Delete type=2 #385
+2022/09/04-01:15:03.794 98a0 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/04-01:15:03.795 98a0 Recovering log #414
+2022/09/04-01:15:03.800 98a0 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000414.log 
+2022/09/04-01:43:48.198 98a0 Level-0 table #419: started
+2022/09/04-01:43:48.214 98a0 Level-0 table #419: 1161259 bytes OK
+2022/09/04-01:43:48.219 98a0 Delete type=0 #414
+2022/09/04-01:45:34.452 98a0 Compacting 1@1 + 1@2 files
+2022/09/04-01:45:34.462 98a0 Generated table #420@1: 400 keys, 34162 bytes
+2022/09/04-01:45:34.462 98a0 Compacted 1@1 + 1@2 files => 34162 bytes
+2022/09/04-01:45:34.465 98a0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/04-01:45:34.465 98a0 Delete type=2 #419
+2022/09/04-01:45:34.465 98a0 Delete type=2 #416
+2022/09/04-02:56:20.171 b1d0 Level-0 table #422: started
+2022/09/04-02:56:20.187 b1d0 Level-0 table #422: 1166024 bytes OK
+2022/09/04-02:56:20.198 b1d0 Delete type=0 #418
+2022/09/04-02:56:30.016 9c66 Compacting 1@1 + 1@2 files
+2022/09/04-02:56:30.022 9c66 Generated table #423@1: 378 keys, 36857 bytes
+2022/09/04-02:56:30.022 9c66 Compacted 1@1 + 1@2 files => 36857 bytes
+2022/09/04-02:56:30.026 9c66 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/04-02:56:30.026 9c66 Delete type=2 #420
+2022/09/04-02:56:30.026 9c66 Delete type=2 #422

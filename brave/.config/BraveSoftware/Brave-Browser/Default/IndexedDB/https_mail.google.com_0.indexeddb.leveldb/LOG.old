@@ -1,9 +1,15 @@
-2022/09/02-14:48:52.081 585 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/02-14:48:52.081 585 Recovering log #11
-2022/09/02-14:48:52.084 585 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000011.log 
-2022/09/02-14:48:56.392 585 Compacting 1@1 + 1@2 files
-2022/09/02-14:48:56.398 585 Generated table #14@1: 107 keys, 70112 bytes
-2022/09/02-14:48:56.398 585 Compacted 1@1 + 1@2 files => 70112 bytes
-2022/09/02-14:48:56.402 585 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/09/02-14:48:56.402 585 Delete type=2 #12
-2022/09/02-14:48:56.402 585 Delete type=2 #10
+2022/09/02-22:10:18.526 721b Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/02-22:10:18.526 721b Recovering log #11
+2022/09/02-22:10:18.528 721b Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000011.log 
+2022/09/02-22:16:09.688 7b49 Level-0 table #17: started
+2022/09/02-22:16:09.703 7b49 Level-0 table #17: 1014592 bytes OK
+2022/09/02-22:16:09.708 7b49 Delete type=0 #11
+2022/09/02-22:16:09.708 7b49 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/09/02-22:16:09.708 7b49 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x001\x00/' @ 7848 : 1
+2022/09/02-22:16:09.708 7b49 Compacting 1@1 + 1@2 files
+2022/09/02-22:16:09.714 7b49 Generated table #18@1: 102 keys, 67421 bytes
+2022/09/02-22:16:09.714 7b49 Compacted 1@1 + 1@2 files => 67421 bytes
+2022/09/02-22:16:09.717 7b49 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/02-22:16:09.717 7b49 Delete type=2 #14
+2022/09/02-22:16:09.717 7b49 Delete type=2 #17
+2022/09/02-22:16:09.717 7b49 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x001\x00/' @ 7848 : 1 .. (end); will stop at (end)

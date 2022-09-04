@@ -1,11 +1,15 @@
 require("user.indent-blankline")
+--[[ require("user.todo-highlight") ]]
 require("user.smart-splits")
 require("user.toggle-term")
 require("user.bufferline")
 require("user.illuminate")
+require("user.fold-cycle")
 require("user.treesitter")
+require("user.rust-tools")
 require("user.git-signs")
 require("user.neo-tree")
+require("user.stablize")
 require("user.autosave")
 require("user.dressing")
 --[[ require("user.lsp-kind") ]]
@@ -18,11 +22,13 @@ require("user.discord")
 require("user.autocmd")
 require("user.winbar")
 require("user.remap")
+require("user.folds")
 require("user.alpha")
+require("user.tint")
 require("user.cmp")
 require("user.lsp")
 
 require("nvim-autopairs").setup()
 require("telescope").setup()
---[[ require("which-key").setup() ]]
 require('colorizer').setup()
+--[[ require("which-key").setup() ]]

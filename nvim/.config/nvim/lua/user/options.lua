@@ -16,6 +16,7 @@ vim.opt.wrap = false
 vim.opt.hidden = true
 
 vim.opt.cursorline = true
+vim.opt.cursorcolumn = false
 
 vim.opt.swapfile = false
 vim.opt.backup = false
@@ -45,7 +46,8 @@ vim.g.mapleader = " "
 
 vim.wo.fillchars='eob: '
 
-
+vim.opt.splitbelow = true
+vim.opt.splitright = true
 
 vim.opt.list = true
 vim.opt.listchars:append "space:⋅"

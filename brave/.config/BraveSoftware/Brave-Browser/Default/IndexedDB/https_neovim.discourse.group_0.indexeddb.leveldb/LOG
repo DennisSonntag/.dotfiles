@@ -1,6 +1,15 @@
-2022/08/31-17:56:28.095 36245 Creating DB /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neovim.discourse.group_0.indexeddb.leveldb since it was missing.
-2022/08/31-17:56:28.113 36245 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neovim.discourse.group_0.indexeddb.leveldb/MANIFEST-000001
-2022/08/31-18:01:14.821 3649f Level-0 table #5: started
-2022/08/31-18:01:14.824 3649f Level-0 table #5: 2857 bytes OK
-2022/08/31-18:01:14.828 3649f Delete type=0 #3
-2022/08/31-18:01:14.828 3649f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/09/03-20:25:10.128 1a6b Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neovim.discourse.group_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/03-20:25:10.129 1a6b Recovering log #4
+2022/09/03-20:25:10.129 1a6b Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neovim.discourse.group_0.indexeddb.leveldb/000004.log 
+2022/09/03-20:26:27.473 1a6b Level-0 table #8: started
+2022/09/03-20:26:27.476 1a6b Level-0 table #8: 3396 bytes OK
+2022/09/03-20:26:27.480 1a6b Delete type=0 #4
+2022/09/03-20:26:27.480 1a6b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/09/03-20:26:27.480 1a6b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00P\xaa\x13e0xB\x00\x01?\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00n\x00e\x00o\x00v\x00i\x00m\x00.\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00.\x00g\x00r\x00o\x00u\x00p\x00/\x00m\x00a\x00n\x00i\x00f\x00e\x00s\x00t\x00.\x00w\x00e\x00b\x00m\x00a\x00n\x00i\x00f\x00e\x00s\x00t' @ 179 : 1
+2022/09/03-20:26:27.480 1a6b Compacting 1@1 + 1@2 files
+2022/09/03-20:26:27.483 1a6b Generated table #9@1: 43 keys, 2641 bytes
+2022/09/03-20:26:27.483 1a6b Compacted 1@1 + 1@2 files => 2641 bytes
+2022/09/03-20:26:27.486 1a6b compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/03-20:26:27.486 1a6b Delete type=2 #8
+2022/09/03-20:26:27.486 1a6b Delete type=2 #5
+2022/09/03-20:26:27.487 1a6b Manual compaction at level-1 from '\x00\x01\x01 \x03\x00P\xaa\x13e0xB\x00\x01?\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00n\x00e\x00o\x00v\x00i\x00m\x00.\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00.\x00g\x00r\x00o\x00u\x00p\x00/\x00m\x00a\x00n\x00i\x00f\x00e\x00s\x00t\x00.\x00w\x00e\x00b\x00m\x00a\x00n\x00i\x00f\x00e\x00s\x00t' @ 179 : 1 .. (end); will stop at (end)
