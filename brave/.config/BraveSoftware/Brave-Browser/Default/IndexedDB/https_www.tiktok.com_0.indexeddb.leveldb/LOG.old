@@ -1,0 +1,6 @@
+2022/09/03-00:25:18.960 8a1e Creating DB /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb since it was missing.
+2022/09/03-00:25:18.969 8a1e Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/03-00:27:11.745 8a1f Level-0 table #5: started
+2022/09/03-00:27:11.748 8a1f Level-0 table #5: 3479 bytes OK
+2022/09/03-00:27:11.751 8a1f Delete type=0 #3
+2022/09/03-00:27:11.751 8a1f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -30,8 +30,8 @@ return require("packer").startup(function(use)
 	use("akinsho/toggleterm.nvim")
 
 	--Winbar
-	use("fgheng/winbar.nvim")
 	--[[ use("SmiteshP/nvim-navic") ]]
+	use("fgheng/winbar.nvim")
 	use("SmiteshP/nvim-gps")
 
 	--Inlay Hints

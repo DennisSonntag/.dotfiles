@@ -1,14 +1,84 @@
-2022/09/04-00:14:01.800 989f Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/04-00:14:01.801 989f Recovering log #410
-2022/09/04-00:14:01.815 989f Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000410.log 
-2022/09/04-00:14:01.815 989f Delete type=2 #411
-2022/09/04-00:14:01.815 989f Delete type=2 #409
-2022/09/04-00:19:10.893 989e Level-0 table #415: started
-2022/09/04-00:19:10.906 989e Level-0 table #415: 1080064 bytes OK
-2022/09/04-00:19:10.910 989e Delete type=0 #410
-2022/09/04-00:20:20.398 989e Compacting 1@1 + 1@2 files
-2022/09/04-00:20:20.407 989e Generated table #416@1: 348 keys, 38491 bytes
-2022/09/04-00:20:20.407 989e Compacted 1@1 + 1@2 files => 38491 bytes
-2022/09/04-00:20:20.411 989e compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/09/04-00:20:20.411 989e Delete type=2 #412
-2022/09/04-00:20:20.411 989e Delete type=2 #415
+2022/09/05-14:36:48.722 695 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/05-14:36:48.722 695 Recovering log #552
+2022/09/05-14:36:48.736 695 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000552.log 
+2022/09/05-14:38:46.995 695 Level-0 table #557: started
+2022/09/05-14:38:47.007 695 Level-0 table #557: 1141906 bytes OK
+2022/09/05-14:38:47.011 695 Delete type=0 #552
+2022/09/05-14:39:52.688 697 Compacting 1@1 + 1@2 files
+2022/09/05-14:39:52.705 697 Generated table #558@1: 415 keys, 32599 bytes
+2022/09/05-14:39:52.705 697 Compacted 1@1 + 1@2 files => 32599 bytes
+2022/09/05-14:39:52.711 697 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/05-14:39:52.711 697 Delete type=2 #557
+2022/09/05-14:39:52.711 697 Delete type=2 #554
+2022/09/05-15:00:42.141 690 Level-0 table #560: started
+2022/09/05-15:00:42.162 690 Level-0 table #560: 1073170 bytes OK
+2022/09/05-15:00:42.166 690 Delete type=0 #556
+2022/09/05-15:01:29.138 548 Compacting 1@1 + 1@2 files
+2022/09/05-15:01:29.146 548 Generated table #561@1: 488 keys, 41607 bytes
+2022/09/05-15:01:29.146 548 Compacted 1@1 + 1@2 files => 41607 bytes
+2022/09/05-15:01:29.154 548 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/05-15:01:29.154 548 Delete type=2 #560
+2022/09/05-15:01:29.154 548 Delete type=2 #558
+2022/09/05-15:18:18.533 548 Level-0 table #563: started
+2022/09/05-15:18:18.543 548 Level-0 table #563: 1023531 bytes OK
+2022/09/05-15:18:18.547 548 Delete type=0 #559
+2022/09/05-15:19:46.273 548 Compacting 1@1 + 1@2 files
+2022/09/05-15:19:46.283 548 Generated table #564@1: 578 keys, 43414 bytes
+2022/09/05-15:19:46.284 548 Compacted 1@1 + 1@2 files => 43414 bytes
+2022/09/05-15:19:46.287 548 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/05-15:19:46.287 548 Delete type=2 #561
+2022/09/05-15:19:46.287 548 Delete type=2 #563
+2022/09/05-18:42:24.287 2c64 Level-0 table #566: started
+2022/09/05-18:42:24.306 2c64 Level-0 table #566: 1307184 bytes OK
+2022/09/05-18:42:24.311 2c64 Delete type=0 #562
+2022/09/05-18:43:45.770 2abd Compacting 1@1 + 1@2 files
+2022/09/05-18:43:45.778 2abd Generated table #567@1: 637 keys, 39795 bytes
+2022/09/05-18:43:45.778 2abd Compacted 1@1 + 1@2 files => 39795 bytes
+2022/09/05-18:43:45.782 2abd compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/05-18:43:45.782 2abd Delete type=2 #566
+2022/09/05-18:43:45.782 2abd Delete type=2 #564
+2022/09/05-20:52:52.517 3532 Level-0 table #569: started
+2022/09/05-20:52:52.534 3532 Level-0 table #569: 1192196 bytes OK
+2022/09/05-20:52:52.538 3532 Delete type=0 #565
+2022/09/05-20:55:40.531 3967 Compacting 1@1 + 1@2 files
+2022/09/05-20:55:40.538 3967 Generated table #570@1: 519 keys, 36461 bytes
+2022/09/05-20:55:40.539 3967 Compacted 1@1 + 1@2 files => 36461 bytes
+2022/09/05-20:55:40.542 3967 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/05-20:55:40.542 3967 Delete type=2 #567
+2022/09/05-20:55:40.542 3967 Delete type=2 #569
+2022/09/05-21:47:15.048 5032 Level-0 table #572: started
+2022/09/05-21:47:15.069 5032 Level-0 table #572: 1224001 bytes OK
+2022/09/05-21:47:15.075 5032 Delete type=0 #568
+2022/09/05-21:48:24.737 5033 Compacting 1@1 + 1@2 files
+2022/09/05-21:48:24.748 5033 Generated table #573@1: 513 keys, 44217 bytes
+2022/09/05-21:48:24.748 5033 Compacted 1@1 + 1@2 files => 44217 bytes
+2022/09/05-21:48:24.751 5033 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/05-21:48:24.751 5033 Delete type=2 #570
+2022/09/05-21:48:24.751 5033 Delete type=2 #572
+2022/09/05-22:30:09.272 568e Level-0 table #575: started
+2022/09/05-22:30:09.285 568e Level-0 table #575: 1242039 bytes OK
+2022/09/05-22:30:09.289 568e Delete type=0 #571
+2022/09/05-22:32:45.021 568a Compacting 1@1 + 1@2 files
+2022/09/05-22:32:45.032 568a Generated table #576@1: 523 keys, 45167 bytes
+2022/09/05-22:32:45.032 568a Compacted 1@1 + 1@2 files => 45167 bytes
+2022/09/05-22:32:45.036 568a compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/05-22:32:45.036 568a Delete type=2 #573
+2022/09/05-22:32:45.036 568a Delete type=2 #575
+2022/09/05-23:07:57.827 5ae6 Level-0 table #578: started
+2022/09/05-23:07:57.841 5ae6 Level-0 table #578: 1097993 bytes OK
+2022/09/05-23:07:57.846 5ae6 Delete type=0 #574
+2022/09/05-23:08:25.944 5ae6 Compacting 1@1 + 1@2 files
+2022/09/05-23:08:25.956 5ae6 Generated table #579@1: 626 keys, 50217 bytes
+2022/09/05-23:08:25.956 5ae6 Compacted 1@1 + 1@2 files => 50217 bytes
+2022/09/05-23:08:25.959 5ae6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/05-23:08:25.960 5ae6 Delete type=2 #576
+2022/09/05-23:08:25.960 5ae6 Delete type=2 #578
+2022/09/05-23:44:20.585 5ae6 Level-0 table #581: started
+2022/09/05-23:44:20.596 5ae6 Level-0 table #581: 1064068 bytes OK
+2022/09/05-23:44:20.599 5ae6 Delete type=0 #577
+2022/09/05-23:45:04.066 5d83 Compacting 1@1 + 1@2 files
+2022/09/05-23:45:04.073 5d83 Generated table #582@1: 718 keys, 49588 bytes
+2022/09/05-23:45:04.073 5d83 Compacted 1@1 + 1@2 files => 49588 bytes
+2022/09/05-23:45:04.077 5d83 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/05-23:45:04.077 5d83 Delete type=2 #579
+2022/09/05-23:45:04.077 5d83 Delete type=2 #581

@@ -103,7 +103,6 @@ lspconfig.util.default_config = vim.tbl_deep_extend(
 ---
 
 -- LSP servers
-
 -- lspconfig.html.setup({})
 -- lspconfig.cssls.setup({})
 lspconfig.clangd.setup({})
@@ -114,7 +113,6 @@ lspconfig.bashls.setup({})
 lspconfig.tsserver.setup({})
 lspconfig.taplo.setup({})
 lspconfig.rust_analyzer.setup({})
-
 
 
 ---

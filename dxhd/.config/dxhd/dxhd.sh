@@ -15,7 +15,7 @@ discord
 
 ## Power Menu
 #super + x
-/home/dennis/.config/rofi/powermenu/type-1/powermenu.sh
+/home/dennis/.config/rofi/powermenu/type-5/powermenu.sh
 
 ## Screenshot
 # Print

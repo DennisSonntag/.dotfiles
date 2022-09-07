@@ -1,6 +1,30 @@
-2022/09/03-16:39:06.255 3 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2022/09/03-16:39:06.255 3 Recovering log #192
-2022/09/03-16:39:06.256 3 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000192.log 
-2022/09/03-16:39:45.386 3 Level-0 table #196: started
-2022/09/03-16:39:45.389 3 Level-0 table #196: 37975 bytes OK
-2022/09/03-16:39:45.393 3 Delete type=0 #192
+2022/09/05-14:36:47.133 5 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2022/09/05-14:36:47.133 5 Recovering log #259
+2022/09/05-14:36:47.134 5 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000259.log 
+2022/09/05-18:37:47.345 45 Level-0 table #264: started
+2022/09/05-18:37:47.351 45 Level-0 table #264: 55623 bytes OK
+2022/09/05-18:37:47.358 45 Delete type=0 #259
+2022/09/05-18:51:16.549 45 Level-0 table #266: started
+2022/09/05-18:51:16.558 45 Level-0 table #266: 447831 bytes OK
+2022/09/05-18:51:16.562 45 Delete type=0 #263
+2022/09/05-19:05:49.377 57 Level-0 table #268: started
+2022/09/05-19:05:49.387 57 Level-0 table #268: 17843 bytes OK
+2022/09/05-19:05:49.391 57 Delete type=0 #265
+2022/09/05-21:13:38.474 76 Level-0 table #270: started
+2022/09/05-21:13:38.484 76 Level-0 table #270: 18999 bytes OK
+2022/09/05-21:13:38.488 76 Delete type=0 #267
+2022/09/05-21:13:38.489 76 Compacting 4@0 + 1@1 files
+2022/09/05-21:13:38.509 76 Generated table #271@0: 2251 keys, 1243886 bytes
+2022/09/05-21:13:38.510 76 Compacted 4@0 + 1@1 files => 1243886 bytes
+2022/09/05-21:13:38.516 76 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/09/05-21:13:38.517 76 Delete type=2 #264
+2022/09/05-21:13:38.517 76 Delete type=2 #268
+2022/09/05-21:13:38.517 76 Delete type=2 #266
+2022/09/05-21:13:38.517 76 Delete type=2 #261
+2022/09/05-21:13:38.517 76 Delete type=2 #270
+2022/09/05-22:28:33.655 9e Level-0 table #273: started
+2022/09/05-22:28:33.666 9e Level-0 table #273: 22280 bytes OK
+2022/09/05-22:28:33.670 9e Delete type=0 #269
+2022/09/05-23:47:42.068 c1 Level-0 table #275: started
+2022/09/05-23:47:42.078 c1 Level-0 table #275: 17231 bytes OK
+2022/09/05-23:47:42.082 c1 Delete type=0 #272

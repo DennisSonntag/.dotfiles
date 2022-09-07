@@ -316,7 +316,7 @@ globalkeys = gears.table.join(
 
 	-- Prompt
 	awful.key({ modkey }, "p", function()
-		awful.util.spawn("/home/dennis/.config/rofi/launchers/type-2/launcher.sh")
+		awful.util.spawn("/home/dennis/.config/rofi/launchers/type-6/launcher.sh")
 	end,
 		{ description = "run prompt", group = "launcher" }),
 
