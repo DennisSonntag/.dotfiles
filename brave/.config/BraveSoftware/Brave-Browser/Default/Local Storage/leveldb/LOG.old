@@ -1,27 +1,5 @@
-2022/09/13-18:15:01.755 3 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2022/09/13-18:15:01.756 3 Recovering log #342
-2022/09/13-18:15:01.757 3 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000342.log 
-2022/09/13-18:15:13.821 3 Level-0 table #347: started
-2022/09/13-18:15:13.825 3 Level-0 table #347: 19657 bytes OK
-2022/09/13-18:15:13.830 3 Delete type=0 #342
-2022/09/13-19:01:21.246 1f Level-0 table #349: started
-2022/09/13-19:01:21.256 1f Level-0 table #349: 20799 bytes OK
-2022/09/13-19:01:21.261 1f Delete type=0 #346
-2022/09/13-19:21:52.167 24 Level-0 table #351: started
-2022/09/13-19:21:52.179 24 Level-0 table #351: 134359 bytes OK
-2022/09/13-19:21:52.183 24 Delete type=0 #348
-2022/09/13-19:24:26.942 24 Level-0 table #353: started
-2022/09/13-19:24:26.956 24 Level-0 table #353: 118779 bytes OK
-2022/09/13-19:24:26.962 24 Delete type=0 #350
-2022/09/13-19:24:26.962 24 Compacting 4@0 + 1@1 files
-2022/09/13-19:24:26.984 24 Generated table #354@0: 2847 keys, 1289892 bytes
-2022/09/13-19:24:26.984 24 Compacted 4@0 + 1@1 files => 1289892 bytes
-2022/09/13-19:24:26.988 24 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/09/13-19:24:26.988 24 Delete type=2 #349
-2022/09/13-19:24:26.988 24 Delete type=2 #344
-2022/09/13-19:24:26.988 24 Delete type=2 #347
-2022/09/13-19:24:26.988 24 Delete type=2 #353
-2022/09/13-19:24:26.988 24 Delete type=2 #351
-2022/09/13-19:26:21.760 2c Level-0 table #356: started
-2022/09/13-19:26:21.773 2c Level-0 table #356: 118852 bytes OK
-2022/09/13-19:26:21.777 2c Delete type=0 #352
+2022/09/14-08:00:16.216 5 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2022/09/14-08:00:16.217 5 Recovering log #368
+2022/09/14-08:00:16.217 5 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000368.log 
+2022/09/14-08:01:10.045 5 Level-0 table #372: started
+2022/09/14-08:01:10.051 5 Level-0 table #372: 20424 bytes OK

@@ -1,5 +1,5 @@
-2022/09/13-19:31:43.639 4be Recovering log #3
-2022/09/13-19:31:43.729 4be Level-0 table #5: started
-2022/09/13-19:31:43.790 4be Level-0 table #5: 2784740 bytes OK
-2022/09/13-19:31:43.808 4be Delete type=3 #2
-2022/09/13-19:31:43.808 4be Delete type=0 #3
+2022/09/14-08:01:29.895 2337 Recovering log #3
+2022/09/14-08:01:29.988 2337 Level-0 table #5: started
+2022/09/14-08:01:30.084 2337 Level-0 table #5: 2784740 bytes OK
+2022/09/14-08:01:30.104 2337 Delete type=3 #2
+2022/09/14-08:01:30.104 2337 Delete type=0 #3
