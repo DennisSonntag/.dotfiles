@@ -1,51 +1,26 @@
-vim.opt.nu = true
-vim.opt.relativenumber = true
+local set = vim.opt
 
-vim.o.mouse = "a"
-
-vim.opt.errorbells = false
-
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
-
-vim.opt.smartindent = true
-
-vim.opt.wrap = false
-
-vim.opt.hidden = true
-
-vim.opt.cursorline = true
-vim.opt.cursorcolumn = false
-vim.opt.signcolumn = "yes"
-
-vim.opt.swapfile = false
-vim.opt.backup = false
-vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
-vim.opt.undofile = true
-
-vim.opt.hlsearch = false
-vim.opt.incsearch = true
-
-vim.opt.termguicolors = true
-
-vim.opt.scrolloff = 8
-vim.opt.isfname:append("@-@")
-
--- Give more space for displaying messages.
-vim.opt.cmdheight = 1
-
--- Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
--- delays and poor user experience.
-vim.opt.updatetime = 50
-vim.opt.timeoutlen = 1000,
-
--- Don't pass messages to |ins-completion-menu|.
-vim.opt.shortmess:append("c")
-
-vim.g.mapleader = " "
-
+set.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.wo.fillchars = 'eob: '
-
-vim.opt.splitbelow = true
-vim.opt.splitright = true
+set.relativenumber = true
+set.termguicolors = true
+set.errorbells = false
+vim.g.mapleader = " "
+set.smartindent = true
+set.cursorline = true
+set.splitbelow = true
+set.splitright = true
+set.timeoutlen = 1000
+set.incsearch = true
+set.swapfile = false
+set.hlsearch = false
+set.undofile = true
+set.updatetime = 50
+set.softtabstop = 4
+set.shiftwidth = 4
+set.backup = false
+set.hidden = true
+set.wrap = false
+set.tabstop = 4
+set.mouse = "a"
+set.nu = true

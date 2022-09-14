@@ -1,0 +1,6 @@
+2022/09/10-21:13:01.875 9fe5 Creating DB /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_1v1.lol_0.indexeddb.leveldb since it was missing.
+2022/09/10-21:13:01.883 9fe5 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_1v1.lol_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/10-21:33:01.079 a321 Level-0 table #5: started
+2022/09/10-21:33:01.084 a321 Level-0 table #5: 53062 bytes OK
+2022/09/10-21:33:01.089 a321 Delete type=0 #3
+2022/09/10-21:33:01.089 a321 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

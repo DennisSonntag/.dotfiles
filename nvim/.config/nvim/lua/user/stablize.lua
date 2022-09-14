@@ -1,1 +1,1 @@
-require("stabilize").setup(n)
+require("stabilize").setup()

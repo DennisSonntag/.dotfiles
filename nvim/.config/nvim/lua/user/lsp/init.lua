@@ -1,207 +1,74 @@
-require("null-ls")
-
+-- Mappings.
 require("mason").setup()
-require("mason-lspconfig").setup({
-	ensure_installed = { "sumneko_lua", "rust_analyzer" }
-})
+require("rust-tools")
+require("null-ls")
+-- See `:help vim.diagnostic.*` for documentation on any of the below functions
+local opts = { noremap = true, silent = true }
+--[[ vim.keymap.set('n', '<space>e', vim.diagnostic.open_float, opts) ]]
+vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, opts)
+vim.keymap.set('n', ']d', vim.diagnostic.goto_next, opts)
+vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist, opts)
 
--- Keybindings
+-- Use an on_attach function to only map the following keys
+-- after the language server attaches to the current buffer
+local on_attach = function(client, bufnr)
+	-- Enable completion triggered by <c-x><c-o>
+	vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
 
-vim.api.nvim_create_autocmd('User', {
-	pattern = 'LspAttached',
-	desc = 'LSP actions',
-	callback = function()
-		local bufmap = function(mode, lhs, rhs)
-			local opts = { buffer = true }
-			vim.keymap.set(mode, lhs, rhs, opts)
-		end
-
-		bufmap('n', 'K', '<cmd>lua vim.lsp.buf.hover()<cr>')
-		bufmap('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<cr>')
-		bufmap('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<cr>')
-		bufmap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<cr>')
-		bufmap('n', 'go', '<cmd>lua vim.lsp.buf.type_definition()<cr>')
-		bufmap('n', 'gr', '<cmd>lua vim.lsp.buf.references()<cr>')
-		bufmap('n', '<C-k>', '<cmd>lua vim.lsp.buf.signature_help()<cr>')
-		bufmap('n', '<F2>', '<cmd>lua vim.lsp.buf.rename()<cr>')
-		bufmap('n', '<F4>', '<cmd>lua vim.lsp.buf.code_action()<cr>')
-		bufmap('x', '<F4>', '<cmd>lua vim.lsp.buf.range_code_action()<cr>')
-		bufmap('n', 'gl', '<cmd>lua vim.diagnostic.open_float()<cr>')
-		bufmap('n', '[d', '<cmd>lua vim.diagnostic.goto_prev()<cr>')
-		bufmap('n', ']d', '<cmd>lua vim.diagnostic.goto_next()<cr>')
-	end
-})
-
-
----
--- Diagnostics
----
-
-local sign = function(opts)
-	vim.fn.sign_define(opts.name, {
-		texthl = opts.name,
-		text = opts.text,
-		numhl = ''
-	})
+	-- Mappings.
+	-- See `:help vim.lsp.*` for documentation on any of the below functions
+	local bufopts = { noremap = true, silent = true, buffer = bufnr }
+	vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, bufopts)
+	vim.keymap.set('n', 'gd', vim.lsp.buf.definition, bufopts)
+	vim.keymap.set('n', 'K', vim.lsp.buf.hover, bufopts)
+	vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, bufopts)
+	vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help, bufopts)
+	vim.keymap.set('n', '<space>wa', vim.lsp.buf.add_workspace_folder, bufopts)
+	vim.keymap.set('n', '<space>wr', vim.lsp.buf.remove_workspace_folder, bufopts)
+	vim.keymap.set('n', '<space>wl', function()
+		print(vim.inspect(vim.lsp.buf.list_workspace_folders()))
+	end, bufopts)
+	vim.keymap.set('n', '<space>D', vim.lsp.buf.type_definition, bufopts)
+	vim.keymap.set('n', '<space>rn', vim.lsp.buf.rename, bufopts)
+	vim.keymap.set('n', '<space>ca', vim.lsp.buf.code_action, bufopts)
+	vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts)
+	vim.keymap.set('n', '<space>f', vim.lsp.buf.formatting, bufopts)
 end
 
-sign({ name = 'DiagnosticSignError', text = '✘' })
-sign({ name = 'DiagnosticSignWarn', text = '▲' })
-sign({ name = 'DiagnosticSignHint', text = '⚑' })
-sign({ name = 'DiagnosticSignInfo', text = '' })
+local lsp_flags = {
+	-- This is the default in Nvim 0.7+
+	debounce_text_changes = 150,
+}
+require('lspconfig')['pyright'].setup {
+	on_attach = on_attach,
+	flags = lsp_flags,
+}
+require('lspconfig')['jdtls'].setup {
+	on_attach = on_attach,
+	flags = lsp_flags,
+}
+require('lspconfig')['sumneko_lua'].setup {
+	on_attach = on_attach,
+	flags = lsp_flags,
 
-vim.diagnostic.config({
-	virtual_text = false,
-	severity_sort = true,
-	float = {
-		border = 'rounded',
-		source = 'always',
-		header = '',
-		prefix = '',
-	},
-})
-
-vim.lsp.handlers['textDocument/hover'] = vim.lsp.with(
-	vim.lsp.handlers.hover,
-	{ border = 'rounded' }
-)
-
-vim.lsp.handlers['textDocument/signatureHelp'] = vim.lsp.with(
-	vim.lsp.handlers.signature_help,
-	{ border = 'rounded' }
-)
-
----
--- LSP config
----
-local lsp_defaults = {
-	flags = {
-		debounce_text_changes = 150,
-	},
-	capabilities = require('cmp_nvim_lsp').update_capabilities(
-		vim.lsp.protocol.make_client_capabilities()
-	),
-	on_attach = function(client, bufnr)
-		vim.api.nvim_exec_autocmds('User', { pattern = 'LspAttached' })
-		local status_ok, illuminate = pcall(require, "illuminate")
-		if not status_ok then
-			return
-		end
-		illuminate.on_attach(client)
-	end
+	settings = {
+		Lua = {
+			diagnostics = {
+				globals = { 'vim' }
+			}
+		}
+	}
 }
 
-local lspconfig = require('lspconfig')
-
-lspconfig.util.default_config = vim.tbl_deep_extend(
-	'force',
-	lspconfig.util.default_config,
-	lsp_defaults
-)
-
-
----
-
--- LSP servers
--- lspconfig.html.setup({})
--- lspconfig.cssls.setup({})
-lspconfig.clangd.setup({})
-lspconfig.jdtls.setup({})
-lspconfig.yamlls.setup({})
-lspconfig.sumneko_lua.setup({})
-lspconfig.bashls.setup({})
-lspconfig.tsserver.setup({})
-lspconfig.taplo.setup({})
-lspconfig.rust_analyzer.setup({})
-
-
----
--- Autocomplete
----
-
-require('luasnip.loaders.from_vscode').lazy_load()
-
-local cmp = require('cmp')
-local luasnip = require('luasnip')
-
-local select_opts = { behavior = cmp.SelectBehavior.Select }
-
-cmp.setup({
-	snippet = {
-		expand = function(args)
-			luasnip.lsp_expand(args.body)
-		end
-	},
-	sources = {
-		{ name = 'path' },
-		{ name = 'nvim_lsp', keyword_length = 3 },
-		{ name = 'buffer', keyword_length = 3 },
-		{ name = 'luasnip', keyword_length = 2 },
-	},
-	window = {
-		documentation = cmp.config.window.bordered()
-	},
-	formatting = {
-		fields = { 'menu', 'abbr', 'kind' },
-		format = function(entry, item)
-			local menu_icon = {
-				nvim_lsp = 'λ',
-				luasnip = '⋗',
-				buffer = 'Ω',
-				path = '🖫',
-			}
-
-			item.menu = menu_icon[entry.source.name]
-			return item
-		end,
-	},
-	mapping = {
-		['<Up>'] = cmp.mapping.select_prev_item(select_opts),
-		['<Down>'] = cmp.mapping.select_next_item(select_opts),
-
-		['<C-p>'] = cmp.mapping.select_prev_item(select_opts),
-		['<C-n>'] = cmp.mapping.select_next_item(select_opts),
-
-		['<C-u>'] = cmp.mapping.scroll_docs(-4),
-		['<C-f>'] = cmp.mapping.scroll_docs(4),
-
-		['<C-e>'] = cmp.mapping.abort(),
-		['<CR>'] = cmp.mapping.confirm({ select = true }),
-
-		['<C-d>'] = cmp.mapping(function(fallback)
-			if luasnip.jumpable(1) then
-				luasnip.jump(1)
-			else
-				fallback()
-			end
-		end, { 'i', 's' }),
-
-		['<C-b>'] = cmp.mapping(function(fallback)
-			if luasnip.jumpable(-1) then
-				luasnip.jump(-1)
-			else
-				fallback()
-			end
-		end, { 'i', 's' }),
-
-		['<Tab>'] = cmp.mapping(function(fallback)
-			local col = vim.fn.col('.') - 1
-
-			if cmp.visible() then
-				cmp.select_next_item(select_opts)
-			elseif col == 0 or vim.fn.getline('.'):sub(col, col):match('%s') then
-				fallback()
-			else
-				cmp.complete()
-			end
-		end, { 'i', 's' }),
-
-		['<S-Tab>'] = cmp.mapping(function(fallback)
-			if cmp.visible() then
-				cmp.select_prev_item(select_opts)
-			else
-				fallback()
-			end
-		end, { 'i', 's' }),
-	},
-})
+require('lspconfig')['tsserver'].setup {
+	on_attach = on_attach,
+	flags = lsp_flags,
+}
+require('lspconfig')['rust_analyzer'].setup {
+	on_attach = on_attach,
+	flags = lsp_flags,
+	-- Server-specific settings...
+	settings = {
+		["rust-analyzer"] = {}
+	}
+}

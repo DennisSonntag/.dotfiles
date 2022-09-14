@@ -1,3 +1,6 @@
-2022/09/01-17:09:20.358 66a Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/01-17:09:20.358 66a Recovering log #7
-2022/09/01-17:09:20.359 66a Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000007.log 
+2022/09/12-07:36:04.328 4c3 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/12-07:36:04.328 4c3 Recovering log #7
+2022/09/12-07:36:04.337 4c3 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000007.log 
+2022/09/12-07:36:21.459 498 Level-0 table #12: started
+2022/09/12-07:36:21.470 498 Level-0 table #12: 3958244 bytes OK
+2022/09/12-07:36:21.482 498 Delete type=0 #7

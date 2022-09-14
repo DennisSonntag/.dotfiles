@@ -1,18 +1,15 @@
-2022/09/05-14:36:47.382 5 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2022/09/05-14:36:47.383 5 Recovering log #121
-2022/09/05-14:36:47.383 5 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000121.log 
-2022/09/05-18:53:32.853 45 Level-0 table #125: started
-2022/09/05-18:53:32.862 45 Level-0 table #125: 23468 bytes OK
-2022/09/05-18:53:32.868 45 Delete type=0 #121
-2022/09/05-22:27:45.720 9e Level-0 table #127: started
-2022/09/05-22:27:45.730 9e Level-0 table #127: 15992 bytes OK
-2022/09/05-22:27:45.734 9e Delete type=0 #124
-2022/09/05-22:27:45.735 9e Compacting 4@0 + 1@1 files
-2022/09/05-22:27:45.739 9e Generated table #128@0: 141 keys, 15038 bytes
-2022/09/05-22:27:45.739 9e Compacted 4@0 + 1@1 files => 15038 bytes
-2022/09/05-22:27:45.743 9e compacted to: files[ 0 1 0 0 0 0 0 ]
-2022/09/05-22:27:45.744 9e Delete type=2 #116
-2022/09/05-22:27:45.744 9e Delete type=2 #122
-2022/09/05-22:27:45.744 9e Delete type=2 #119
-2022/09/05-22:27:45.744 9e Delete type=2 #125
-2022/09/05-22:27:45.744 9e Delete type=2 #127
+2022/09/13-16:41:35.967 3 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2022/09/13-16:41:35.969 3 Recovering log #170
+2022/09/13-16:41:35.970 3 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000170.log 
+2022/09/13-17:36:23.782 25 Level-0 table #174: started
+2022/09/13-17:36:23.786 25 Level-0 table #174: 15428 bytes OK
+2022/09/13-17:36:23.791 25 Delete type=0 #170
+2022/09/13-17:36:23.791 25 Compacting 4@0 + 1@1 files
+2022/09/13-17:36:23.797 25 Generated table #175@0: 89 keys, 11337 bytes
+2022/09/13-17:36:23.797 25 Compacted 4@0 + 1@1 files => 11337 bytes
+2022/09/13-17:36:23.801 25 compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/09/13-17:36:23.802 25 Delete type=2 #174
+2022/09/13-17:36:23.802 25 Delete type=2 #163
+2022/09/13-17:36:23.802 25 Delete type=2 #171
+2022/09/13-17:36:23.802 25 Delete type=2 #166
+2022/09/13-17:36:23.802 25 Delete type=2 #169

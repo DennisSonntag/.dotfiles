@@ -6,25 +6,26 @@ return require("packer").startup(function(use)
 	use("wbthomason/packer.nvim")
 	use("nvim-lua/plenary.nvim")
 	use("kyazdani42/nvim-web-devicons")
-	use("MunifTanjim/nui.nvim")
 
+
+	--Indentlines
 	use "lukas-reineke/indent-blankline.nvim"
+
 	--Stabalize new windows
 	use("luukvbaal/stabilize.nvim")
 
 	--Rust tools
 	use('simrat39/rust-tools.nvim')
 
+	--Surround
+	use("kylechui/nvim-surround")
+
 	-- Debugging
-	use('mfussenegger/nvim-dap')
+	-- use('mfussenegger/nvim-dap')
 
 	--Folds
 	use { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' }
 	use("jghauser/fold-cycle.nvim")
-
-	--Shade
-	use("levouh/tint.nvim")
-	--[[ use("sunjon/shade.nvim") ]]
 
 	--Toggle term
 	use("akinsho/toggleterm.nvim")
@@ -34,14 +35,13 @@ return require("packer").startup(function(use)
 	use("fgheng/winbar.nvim")
 	use("SmiteshP/nvim-gps")
 
-	--Inlay Hints
-	--[[ use('simrat39/inlay-hints.nvim') ]]
 
 	--Smart Splits
 	use('mrjones2014/smart-splits.nvim')
 
 	--Colorscheme
 	use('navarasu/onedark.nvim')
+	--[[ use('christianchiarulli/nvcode-color-schemes.vim') ]]
 	--[[ use("projekt0n/github-nvim-theme") ]]
 	--[[ use { "catppuccin/nvim", as = "catppuccin" } ]]
 	--[[ use("folke/tokyonight.nvim") ]]
@@ -60,77 +60,65 @@ return require("packer").startup(function(use)
 	use("andweeb/presence.nvim")
 
 	--Startpage
-	use {
-		'goolord/alpha-nvim',
-		config = function()
-			require 'alpha'.setup(require 'alpha.themes.dashboard'.config)
-		end
-	}
+	use("goolord/alpha-nvim")
+
 	--Autosave
 	use("Pocco81/auto-save.nvim")
 
-	--Notifications
-	use("rcarriga/nvim-notify")
-
-	--Highlight symbols
-	use("RRethy/vim-illuminate")
-
 	--Better ui
+	use("numToStr/Comment.nvim")
 	use("stevearc/dressing.nvim")
+	use("MunifTanjim/nui.nvim")
 
-	--Shortcut popup
-	--[[ use("folke/which-key.nvim") ]]
-
+	--File tree
 	use("nvim-neo-tree/neo-tree.nvim")
+
+	--Fuzzy finder
 	use("nvim-telescope/telescope.nvim")
 
 	--Status line
-	--[[ use("feline-nvim/feline.nvim") ]]
 	use("nvim-lualine/lualine.nvim")
 
 	--Treesitter
 	use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
 	use("p00f/nvim-ts-rainbow")
 
+	--Highlight symbols
+	use("RRethy/vim-illuminate")
+
 	--Bufferline
 	use("akinsho/bufferline.nvim")
 	use("moll/vim-bbye")
 
-	--Mason
-	use("williamboman/mason.nvim")
-	use("williamboman/mason-lspconfig.nvim")
-
-	--Todo commen highlight
-	--[[ use("folke/todo-comments.nvim") ]]
-
 	--Lsp
-	use("neovim/nvim-lspconfig")
 	use("jose-elias-alvarez/null-ls.nvim")
-	--[[ use("onsails/lspkind.nvim") ]]
+	use("neovim/nvim-lspconfig")
+	use("onsails/lspkind.nvim")
+
+	--Mason
+	use("williamboman/mason-lspconfig.nvim")
+	use("williamboman/mason.nvim")
 
 	--Cmp
-	use("hrsh7th/nvim-cmp")
+	use("saadparwaiz1/cmp_luasnip")
+	use("hrsh7th/cmp-nvim-lsp")
+	use("hrsh7th/cmp-cmdline")
 	use("hrsh7th/cmp-buffer")
 	use("hrsh7th/cmp-path")
-	use("saadparwaiz1/cmp_luasnip")
-	use("hrsh7th/cmp-cmdline")
-	use("hrsh7th/cmp-nvim-lsp")
+	use("hrsh7th/nvim-cmp")
 
 	--Snippets
-	use("L3MON4D3/LuaSnip")
 	use("rafamadriz/friendly-snippets")
+	use("L3MON4D3/LuaSnip")
 
 	--AutoPair
-	use("windwp/nvim-autopairs")
 	use("windwp/nvim-ts-autotag")
+	use("windwp/nvim-autopairs")
 
 	--Comments
-	use("numToStr/Comment.nvim")
 	use("JoosepAlviste/nvim-ts-context-commentstring")
+	use("numToStr/Comment.nvim")
 
 	--Gitsigns
 	use("lewis6991/gitsigns.nvim")
-
-
-
 end)
