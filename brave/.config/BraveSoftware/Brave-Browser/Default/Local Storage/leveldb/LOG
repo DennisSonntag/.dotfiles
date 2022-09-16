@@ -1,8 +1,24 @@
-2022/09/14-08:01:29.823 5 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2022/09/14-08:01:29.824 5 Recovering log #368
-2022/09/14-08:01:29.824 5 Level-0 table #371: started
-2022/09/14-08:01:29.829 5 Level-0 table #371: 20424 bytes OK
-2022/09/14-08:01:29.830 5 Recovering log #371
-2022/09/14-08:01:29.830 5 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000371.log 
-2022/09/14-08:01:29.839 5 Delete type=0 #368
-2022/09/14-08:01:29.839 5 Delete type=2 #372
+2022/09/15-17:04:38.376 3 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2022/09/15-17:04:38.377 3 Recovering log #381
+2022/09/15-17:04:38.378 3 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000381.log 
+2022/09/15-17:10:26.437 5 Level-0 table #385: started
+2022/09/15-17:10:26.450 5 Level-0 table #385: 135783 bytes OK
+2022/09/15-17:10:26.454 5 Delete type=0 #381
+2022/09/15-17:10:26.454 5 Compacting 4@0 + 1@1 files
+2022/09/15-17:10:26.475 5 Generated table #386@0: 2913 keys, 1292825 bytes
+2022/09/15-17:10:26.475 5 Compacted 4@0 + 1@1 files => 1292825 bytes
+2022/09/15-17:10:26.479 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/09/15-17:10:26.479 5 Delete type=2 #375
+2022/09/15-17:10:26.480 5 Delete type=2 #377
+2022/09/15-17:10:26.480 5 Delete type=2 #379
+2022/09/15-17:10:26.480 5 Delete type=2 #385
+2022/09/15-17:10:26.480 5 Delete type=2 #382
+2022/09/15-17:16:29.232 5 Level-0 table #388: started
+2022/09/15-17:16:29.245 5 Level-0 table #388: 119099 bytes OK
+2022/09/15-17:16:29.249 5 Delete type=0 #384
+2022/09/15-17:35:38.277 15 Level-0 table #390: started
+2022/09/15-17:35:38.287 15 Level-0 table #390: 16016 bytes OK
+2022/09/15-17:35:38.291 15 Delete type=0 #387
+2022/09/15-19:45:40.613 39 Level-0 table #392: started
+2022/09/15-19:45:40.623 39 Level-0 table #392: 16843 bytes OK
+2022/09/15-19:45:40.628 39 Delete type=0 #389

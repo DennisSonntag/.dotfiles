@@ -149,6 +149,11 @@ _G.packer_plugins = {
     path = "/home/dennis/.local/share/nvim/site/pack/packer/start/impatient.nvim",
     url = "https://github.com/lewis6991/impatient.nvim"
   },
+  ["inc-rename.nvim"] = {
+    loaded = true,
+    path = "/home/dennis/.local/share/nvim/site/pack/packer/start/inc-rename.nvim",
+    url = "https://github.com/smjonas/inc-rename.nvim"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/home/dennis/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",

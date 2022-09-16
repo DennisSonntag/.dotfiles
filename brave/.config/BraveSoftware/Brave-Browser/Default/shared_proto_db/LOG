@@ -1,3 +1,15 @@
-2022/09/14-08:01:29.875 2358 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/MANIFEST-000001
-2022/09/14-08:01:29.876 2358 Recovering log #4
-2022/09/14-08:01:29.879 2358 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/000004.log 
+2022/09/15-17:04:38.431 3d6e Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/MANIFEST-000001
+2022/09/15-17:04:38.431 3d6e Recovering log #4
+2022/09/15-17:04:38.433 3d6e Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/000004.log 
+2022/09/15-17:25:56.132 44f5 Level-0 table #8: started
+2022/09/15-17:25:56.137 44f5 Level-0 table #8: 271662 bytes OK
+2022/09/15-17:25:56.141 44f5 Delete type=0 #4
+2022/09/15-17:26:08.361 44f5 Level-0 table #10: started
+2022/09/15-17:26:08.366 44f5 Level-0 table #10: 754967 bytes OK
+2022/09/15-17:26:08.370 44f5 Delete type=0 #7
+2022/09/15-18:45:41.301 8b85 Compacting 1@1 + 1@2 files
+2022/09/15-18:45:41.313 8b85 Generated table #11@1: 276 keys, 138766 bytes
+2022/09/15-18:45:41.313 8b85 Compacted 1@1 + 1@2 files => 138766 bytes
+2022/09/15-18:45:41.316 8b85 compacted to: files[ 1 0 1 0 0 0 0 ]
+2022/09/15-18:45:41.316 8b85 Delete type=2 #8
+2022/09/15-18:45:41.316 8b85 Delete type=2 #5

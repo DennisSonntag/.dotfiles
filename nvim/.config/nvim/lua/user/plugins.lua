@@ -95,6 +95,9 @@ return require("packer").startup(function(use)
 	use("neovim/nvim-lspconfig")
 	use("onsails/lspkind.nvim")
 
+	--Incremental rename
+	use("smjonas/inc-rename.nvim")
+
 	--Mason
 	use("williamboman/mason-lspconfig.nvim")
 	use("williamboman/mason.nvim")
