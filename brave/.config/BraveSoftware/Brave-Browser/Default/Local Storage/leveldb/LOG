@@ -22,3 +22,18 @@
 2022/09/15-19:45:40.613 39 Level-0 table #392: started
 2022/09/15-19:45:40.623 39 Level-0 table #392: 16843 bytes OK
 2022/09/15-19:45:40.628 39 Delete type=0 #389
+2022/09/15-20:55:07.998 5f Level-0 table #394: started
+2022/09/15-20:55:08.006 5f Level-0 table #394: 16382 bytes OK
+2022/09/15-20:55:08.010 5f Delete type=0 #391
+2022/09/15-20:55:08.011 5f Compacting 4@0 + 1@1 files
+2022/09/15-20:55:08.032 5f Generated table #395@0: 3024 keys, 1294484 bytes
+2022/09/15-20:55:08.032 5f Compacted 4@0 + 1@1 files => 1294484 bytes
+2022/09/15-20:55:08.042 5f compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/09/15-20:55:08.042 5f Delete type=2 #394
+2022/09/15-20:55:08.043 5f Delete type=2 #388
+2022/09/15-20:55:08.043 5f Delete type=2 #390
+2022/09/15-20:55:08.043 5f Delete type=2 #392
+2022/09/15-20:55:08.043 5f Delete type=2 #386
+2022/09/15-20:58:56.945 5f Level-0 table #397: started
+2022/09/15-20:58:56.955 5f Level-0 table #397: 20416 bytes OK
+2022/09/15-20:58:56.959 5f Delete type=0 #393

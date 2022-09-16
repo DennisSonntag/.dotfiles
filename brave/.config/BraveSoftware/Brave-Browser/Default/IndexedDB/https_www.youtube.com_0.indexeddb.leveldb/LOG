@@ -121,3 +121,9 @@
 2022/09/15-20:54:00.190 a40a Level-0 table #860: started
 2022/09/15-20:54:00.210 a40a Level-0 table #860: 1056215 bytes OK
 2022/09/15-20:54:00.215 a40a Delete type=0 #856
+2022/09/15-20:55:02.702 a21e Compacting 1@1 + 1@2 files
+2022/09/15-20:55:02.709 a21e Generated table #861@1: 1258 keys, 66055 bytes
+2022/09/15-20:55:02.709 a21e Compacted 1@1 + 1@2 files => 66055 bytes
+2022/09/15-20:55:02.716 a21e compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/15-20:55:02.716 a21e Delete type=2 #858
+2022/09/15-20:55:02.716 a21e Delete type=2 #860
