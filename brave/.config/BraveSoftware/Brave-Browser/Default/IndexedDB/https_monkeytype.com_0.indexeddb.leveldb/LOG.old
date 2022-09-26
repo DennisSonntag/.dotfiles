@@ -1,23 +1,7 @@
-2022/09/02-22:15:35.931 721b Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/02-22:15:35.931 721b Recovering log #23
-2022/09/02-22:15:35.931 721b Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000023.log 
-2022/09/02-22:15:36.410 72bc Level-0 table #28: started
-2022/09/02-22:15:36.413 72bc Level-0 table #28: 736 bytes OK
-2022/09/02-22:15:36.418 72bc Delete type=0 #23
-2022/09/02-22:15:36.418 72bc Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/09/02-22:16:07.821 721b Compacting 1@1 + 1@2 files
-2022/09/02-22:16:07.826 721b Generated table #29@1: 42 keys, 4334 bytes
-2022/09/02-22:16:07.826 721b Compacted 1@1 + 1@2 files => 4334 bytes
-2022/09/02-22:16:07.831 721b compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/09/02-22:16:07.831 7b49 Level-0 table #31: started
-2022/09/02-22:16:07.834 7b49 Level-0 table #31: 8796 bytes OK
-2022/09/02-22:16:07.838 7b49 Delete type=0 #27
-2022/09/02-22:16:07.839 7b49 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/09/02-22:16:46.245 721b Compacting 1@1 + 1@2 files
-2022/09/02-22:16:46.254 721b Generated table #32@1: 42 keys, 4335 bytes
-2022/09/02-22:16:46.254 721b Compacted 1@1 + 1@2 files => 4335 bytes
-2022/09/02-22:16:46.258 721b compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/09/02-22:16:46.258 721b Delete type=2 #31
-2022/09/02-22:16:46.258 721b Delete type=2 #28
-2022/09/02-22:16:46.258 721b Delete type=2 #29
-2022/09/02-22:16:46.258 721b Delete type=2 #25
+2022/09/20-17:32:48.828 497 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/20-17:32:48.828 497 Recovering log #51
+2022/09/20-17:32:48.829 497 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000051.log 
+2022/09/20-17:32:49.251 4b0 Level-0 table #56: started
+2022/09/20-17:32:49.254 4b0 Level-0 table #56: 8236 bytes OK
+2022/09/20-17:32:49.260 4b0 Delete type=0 #51
+2022/09/20-17:32:49.260 4b0 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)

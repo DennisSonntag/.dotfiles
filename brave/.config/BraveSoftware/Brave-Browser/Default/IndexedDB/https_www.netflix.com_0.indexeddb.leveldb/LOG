@@ -1,3 +1,24 @@
-2022/09/08-21:48:48.476 9587 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/08-21:48:48.476 9587 Recovering log #19
-2022/09/08-21:48:48.477 9587 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000019.log 
+2022/09/23-10:06:24.496 1892 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/23-10:06:24.496 1892 Recovering log #19
+2022/09/23-10:06:24.502 1892 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000019.log 
+2022/09/23-10:31:17.263 18bd Level-0 table #24: started
+2022/09/23-10:31:17.276 18bd Level-0 table #24: 2518747 bytes OK
+2022/09/23-10:31:17.280 18bd Delete type=0 #19
+2022/09/23-10:41:01.275 498 Compacting 1@1 + 1@2 files
+2022/09/23-10:41:01.288 498 Generated table #25@1: 53 keys, 18026 bytes
+2022/09/23-10:41:01.289 498 Compacted 1@1 + 1@2 files => 18026 bytes
+2022/09/23-10:41:01.292 498 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/23-10:41:01.292 498 Delete type=2 #24
+2022/09/23-10:41:01.292 498 Delete type=2 #21
+2022/09/23-12:04:27.004 498 Level-0 table #27: started
+2022/09/23-12:04:27.015 498 Level-0 table #27: 1217667 bytes OK
+2022/09/23-12:04:27.019 498 Delete type=0 #23
+2022/09/23-12:04:27.020 498 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/09/23-12:04:27.020 498 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x0e\x00u\x00n\x00s\x00e\x00n\x00t\x00p\x00l\x00a\x00y\x00d\x00a\x00t\x00a' @ 67087 : 1
+2022/09/23-12:04:27.020 498 Compacting 1@1 + 1@2 files
+2022/09/23-12:04:27.025 498 Generated table #28@1: 50 keys, 12354 bytes
+2022/09/23-12:04:27.025 498 Compacted 1@1 + 1@2 files => 12354 bytes
+2022/09/23-12:04:27.029 498 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/23-12:04:27.029 498 Delete type=2 #27
+2022/09/23-12:04:27.029 498 Delete type=2 #25
+2022/09/23-12:04:27.029 498 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x0e\x00u\x00n\x00s\x00e\x00n\x00t\x00p\x00l\x00a\x00y\x00d\x00a\x00t\x00a' @ 67087 : 1 .. (end); will stop at (end)
