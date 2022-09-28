@@ -1,3 +1,27 @@
-2022/09/25-01:17:33.518 3 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2022/09/25-01:17:33.518 3 Recovering log #245
-2022/09/25-01:17:33.519 3 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000245.log 
+2022/09/27-15:26:21.737 5 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2022/09/27-15:26:21.738 5 Recovering log #250
+2022/09/27-15:26:21.739 5 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000250.log 
+2022/09/27-15:39:07.421 3 Level-0 table #255: started
+2022/09/27-15:39:07.426 3 Level-0 table #255: 16660 bytes OK
+2022/09/27-15:39:07.431 3 Delete type=0 #250
+2022/09/27-15:49:17.385 14 Level-0 table #257: started
+2022/09/27-15:49:17.400 14 Level-0 table #257: 277206 bytes OK
+2022/09/27-15:49:17.406 14 Delete type=0 #254
+2022/09/27-15:49:18.280 14 Level-0 table #259: started
+2022/09/27-15:49:18.291 14 Level-0 table #259: 20169 bytes OK
+2022/09/27-15:49:18.296 14 Delete type=0 #256
+2022/09/27-17:16:55.296 2c Level-0 table #261: started
+2022/09/27-17:16:55.303 2c Level-0 table #261: 15269 bytes OK
+2022/09/27-17:16:55.309 2c Delete type=0 #258
+2022/09/27-17:16:55.310 2c Compacting 4@0 + 1@1 files
+2022/09/27-17:16:55.319 2c Generated table #262@0: 212 keys, 311293 bytes
+2022/09/27-17:16:55.319 2c Compacted 4@0 + 1@1 files => 311293 bytes
+2022/09/27-17:16:55.322 2c compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/09/27-17:16:55.324 2c Delete type=2 #261
+2022/09/27-17:16:55.324 2c Delete type=2 #255
+2022/09/27-17:16:55.324 2c Delete type=2 #252
+2022/09/27-17:16:55.325 2c Delete type=2 #259
+2022/09/27-17:16:55.325 2c Delete type=2 #257
+2022/09/27-17:56:13.689 3e Level-0 table #264: started
+2022/09/27-17:56:13.700 3e Level-0 table #264: 28184 bytes OK
+2022/09/27-17:56:13.704 3e Delete type=0 #260

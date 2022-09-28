@@ -16,6 +16,14 @@ configs.setup({
 		disable = { "html" },
 		extended_mode = true,
 		max_file_lines = nil,
+
+		--For vscode colorscheme
+		colors = {
+			"#179FFF",
+			"#EBC703",
+			"#C768C3"
+		},
+
 	},
 	indent = { enable = true },
 	context_commentstring = {

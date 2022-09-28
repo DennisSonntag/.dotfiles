@@ -314,6 +314,11 @@ _G.packer_plugins = {
     path = "/home/dennis/.local/share/nvim/site/pack/packer/start/vim-illuminate",
     url = "https://github.com/RRethy/vim-illuminate"
   },
+  ["vscode.nvim"] = {
+    loaded = true,
+    path = "/home/dennis/.local/share/nvim/site/pack/packer/start/vscode.nvim",
+    url = "https://github.com/Mofiqul/vscode.nvim"
+  },
   ["winbar.nvim"] = {
     loaded = true,
     path = "/home/dennis/.local/share/nvim/site/pack/packer/start/winbar.nvim",

@@ -41,12 +41,12 @@ return require("packer").startup(function(use)
 
 	--Colorscheme
 	use('navarasu/onedark.nvim')
+	use("Mofiqul/vscode.nvim")
 	--[[ use('christianchiarulli/nvcode-color-schemes.vim') ]]
 	--[[ use("projekt0n/github-nvim-theme") ]]
 	--[[ use { "catppuccin/nvim", as = "catppuccin" } ]]
 	--[[ use("folke/tokyonight.nvim") ]]
 	--[[ use("svrana/neosolarized.nvim") ]]
-	--[[ use("Mofiqul/vscode.nvim") ]]
 	--use "EdenEast/nightfox.nvim"
 	--[[ use("tjdevries/colorbuddy.nvim") ]]
 

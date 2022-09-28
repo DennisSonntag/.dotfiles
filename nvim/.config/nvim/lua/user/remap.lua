@@ -18,11 +18,10 @@ nnoremap("<leader>fb", " <cmd>Telescope buffers<CR>")
 nnoremap("<leader>fh", " <cmd>Telescope help_tags<CR>")
 nnoremap("<leader>lf", " <cmd>lua vim.lsp.buf.format() <CR>")
 
-vim.cmd [[
-" Shift + J/K moves selected lines down/up in visual mode
-vnoremap J :m '>+1<CR>gv=gv
-vnoremap K :m '<-2<CR>gv=gv
-]]
+--[[ vim.cmd [[ ]]
+--[[ Shift + J/K moves selected lines down/up in visual mode ]]
+--[[ vnoremap J :m '>+1<CR>gv=gv ]]
+--[[ vnoremap K :m '<-2<CR>gv=gv ]]
 
 
 nnoremap("<C-q>", "<cmd>q<CR>")

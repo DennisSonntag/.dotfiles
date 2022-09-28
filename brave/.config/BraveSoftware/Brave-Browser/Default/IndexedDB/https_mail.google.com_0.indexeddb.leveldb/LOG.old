@@ -1,3 +1,9 @@
-2022/09/23-16:52:22.404 76c Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/23-16:52:22.404 76c Recovering log #32
-2022/09/23-16:52:22.408 76c Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000032.log 
+2022/09/27-19:28:24.105 c965 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/27-19:28:24.105 c965 Recovering log #43
+2022/09/27-19:28:24.106 c965 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000043.log 
+2022/09/27-19:28:26.432 ca77 Compacting 1@1 + 1@2 files
+2022/09/27-19:28:26.439 ca77 Generated table #46@1: 98 keys, 48002 bytes
+2022/09/27-19:28:26.439 ca77 Compacted 1@1 + 1@2 files => 48002 bytes
+2022/09/27-19:28:26.446 ca77 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/27-19:28:26.446 ca77 Delete type=2 #41
+2022/09/27-19:28:26.446 ca77 Delete type=2 #44

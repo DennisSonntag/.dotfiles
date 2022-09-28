@@ -1,7 +1,13 @@
-2022/09/20-17:32:48.828 497 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/20-17:32:48.828 497 Recovering log #51
-2022/09/20-17:32:48.829 497 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000051.log 
-2022/09/20-17:32:49.251 4b0 Level-0 table #56: started
-2022/09/20-17:32:49.254 4b0 Level-0 table #56: 8236 bytes OK
-2022/09/20-17:32:49.260 4b0 Delete type=0 #51
-2022/09/20-17:32:49.260 4b0 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/09/27-15:33:15.956 4bc Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/27-15:33:15.956 4bc Recovering log #62
+2022/09/27-15:33:15.956 4bc Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000062.log 
+2022/09/27-15:33:16.296 3b73 Level-0 table #67: started
+2022/09/27-15:33:16.299 3b73 Level-0 table #67: 734 bytes OK
+2022/09/27-15:33:16.303 3b73 Delete type=0 #62
+2022/09/27-15:33:16.303 3b73 Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/09/27-15:33:52.314 3c09 Compacting 1@1 + 1@2 files
+2022/09/27-15:33:52.325 3c09 Generated table #68@1: 42 keys, 4341 bytes
+2022/09/27-15:33:52.325 3c09 Compacted 1@1 + 1@2 files => 4341 bytes
+2022/09/27-15:33:52.330 3c09 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/09/27-15:33:52.330 3c09 Delete type=2 #64
+2022/09/27-15:33:52.330 3c09 Delete type=2 #67

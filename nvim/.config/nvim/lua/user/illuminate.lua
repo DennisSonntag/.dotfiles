@@ -10,18 +10,19 @@ require("illuminate").configure {
 	delay = 120,
 	-- filetypes_denylist: filetypes to not illuminate, this overrides filetypes_allowlist
 	filetypes_denylist = {
-		"dirvish",
-		"fugitive",
+		--[[ "dirvish", ]]
+		--[[ "fugitive", ]]
 		"alpha",
-		"NvimTree",
+		--[[ "NvimTree", ]]
+		"NeoTree",
 		"packer",
-		"neogitstatus",
-		"Trouble",
-		"lir",
-		"Outline",
-		"spectre_panel",
+		--[[ "neogitstatus", ]]
+		--[[ "Trouble", ]]
+		--[[ "lir", ]]
+		--[[ "Outline", ]]
+		--[[ "spectre_panel", ]]
 		"toggleterm",
-		"DressingSelect",
+		--[[ "DressingSelect", ]]
 		"TelescopePrompt",
 	},
 	-- filetypes_allowlist: filetypes to illuminate, this is overriden by filetypes_denylist

@@ -1,30 +1,3 @@
-2022/09/25-16:48:33.981 59b Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/25-16:48:33.981 59b Recovering log #1031
-2022/09/25-16:48:33.991 59b Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/001031.log 
-2022/09/25-16:49:36.647 590 Level-0 table #1036: started
-2022/09/25-16:49:36.661 590 Level-0 table #1036: 1070821 bytes OK
-2022/09/25-16:49:36.665 590 Delete type=0 #1031
-2022/09/25-16:50:21.234 59b Compacting 1@1 + 1@2 files
-2022/09/25-16:50:21.241 59b Generated table #1037@1: 1674 keys, 67352 bytes
-2022/09/25-16:50:21.241 59b Compacted 1@1 + 1@2 files => 67352 bytes
-2022/09/25-16:50:21.250 59b compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/09/25-16:50:21.250 59b Delete type=2 #1036
-2022/09/25-16:50:21.250 59b Delete type=2 #1033
-2022/09/25-17:01:02.273 4ebe Level-0 table #1039: started
-2022/09/25-17:01:02.286 4ebe Level-0 table #1039: 1067373 bytes OK
-2022/09/25-17:01:02.290 4ebe Delete type=0 #1035
-2022/09/25-17:02:41.851 4e5a Compacting 1@1 + 1@2 files
-2022/09/25-17:02:41.869 4e5a Generated table #1040@1: 1690 keys, 76777 bytes
-2022/09/25-17:02:41.869 4e5a Compacted 1@1 + 1@2 files => 76777 bytes
-2022/09/25-17:02:41.873 4e5a compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/09/25-17:02:41.873 4e5a Delete type=2 #1037
-2022/09/25-17:02:41.873 4e5a Delete type=2 #1039
-2022/09/25-17:58:03.899 5439 Level-0 table #1042: started
-2022/09/25-17:58:03.912 5439 Level-0 table #1042: 1200350 bytes OK
-2022/09/25-17:58:03.916 5439 Delete type=0 #1038
-2022/09/25-17:58:51.479 5439 Compacting 1@1 + 1@2 files
-2022/09/25-17:58:51.487 5439 Generated table #1043@1: 1708 keys, 79460 bytes
-2022/09/25-17:58:51.487 5439 Compacted 1@1 + 1@2 files => 79460 bytes
-2022/09/25-17:58:51.490 5439 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/09/25-17:58:51.490 5439 Delete type=2 #1042
-2022/09/25-17:58:51.490 5439 Delete type=2 #1040
+2022/09/28-08:10:56.058 4bd Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/28-08:10:56.058 4bd Recovering log #1075
+2022/09/28-08:10:56.061 4bd Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/001075.log 
