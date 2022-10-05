@@ -1,2 +1,1 @@
---[[ vim.cmd("colorscheme onedark") ]]
-vim.cmd("colorscheme vscode")
+vim.cmd("colorscheme onedark")

@@ -1,27 +1,42 @@
-2022/09/27-15:26:21.737 5 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2022/09/27-15:26:21.738 5 Recovering log #250
-2022/09/27-15:26:21.739 5 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000250.log 
-2022/09/27-15:39:07.421 3 Level-0 table #255: started
-2022/09/27-15:39:07.426 3 Level-0 table #255: 16660 bytes OK
-2022/09/27-15:39:07.431 3 Delete type=0 #250
-2022/09/27-15:49:17.385 14 Level-0 table #257: started
-2022/09/27-15:49:17.400 14 Level-0 table #257: 277206 bytes OK
-2022/09/27-15:49:17.406 14 Delete type=0 #254
-2022/09/27-15:49:18.280 14 Level-0 table #259: started
-2022/09/27-15:49:18.291 14 Level-0 table #259: 20169 bytes OK
-2022/09/27-15:49:18.296 14 Delete type=0 #256
-2022/09/27-17:16:55.296 2c Level-0 table #261: started
-2022/09/27-17:16:55.303 2c Level-0 table #261: 15269 bytes OK
-2022/09/27-17:16:55.309 2c Delete type=0 #258
-2022/09/27-17:16:55.310 2c Compacting 4@0 + 1@1 files
-2022/09/27-17:16:55.319 2c Generated table #262@0: 212 keys, 311293 bytes
-2022/09/27-17:16:55.319 2c Compacted 4@0 + 1@1 files => 311293 bytes
-2022/09/27-17:16:55.322 2c compacted to: files[ 0 1 0 0 0 0 0 ]
-2022/09/27-17:16:55.324 2c Delete type=2 #261
-2022/09/27-17:16:55.324 2c Delete type=2 #255
-2022/09/27-17:16:55.324 2c Delete type=2 #252
-2022/09/27-17:16:55.325 2c Delete type=2 #259
-2022/09/27-17:16:55.325 2c Delete type=2 #257
-2022/09/27-17:56:13.689 3e Level-0 table #264: started
-2022/09/27-17:56:13.700 3e Level-0 table #264: 28184 bytes OK
-2022/09/27-17:56:13.704 3e Delete type=0 #260
+2022/10/03-17:11:20.128 5 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2022/10/03-17:11:20.129 5 Recovering log #316
+2022/10/03-17:11:20.130 5 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000316.log 
+2022/10/03-17:11:50.061 3 Level-0 table #320: started
+2022/10/03-17:11:50.071 3 Level-0 table #320: 16088 bytes OK
+2022/10/03-17:11:50.080 3 Delete type=0 #316
+2022/10/03-17:11:50.080 3 Compacting 4@0 + 1@1 files
+2022/10/03-17:11:50.091 3 Generated table #321@0: 154 keys, 19912 bytes
+2022/10/03-17:11:50.091 3 Compacted 4@0 + 1@1 files => 19912 bytes
+2022/10/03-17:11:50.094 3 compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/10/03-17:11:50.095 3 Delete type=2 #310
+2022/10/03-17:11:50.095 3 Delete type=2 #320
+2022/10/03-17:11:50.095 3 Delete type=2 #315
+2022/10/03-17:11:50.095 3 Delete type=2 #317
+2022/10/03-17:11:50.095 3 Delete type=2 #312
+2022/10/03-17:21:30.401 a Level-0 table #323: started
+2022/10/03-17:21:30.412 a Level-0 table #323: 17160 bytes OK
+2022/10/03-17:21:30.416 a Delete type=0 #319
+2022/10/03-17:26:57.015 a Level-0 table #325: started
+2022/10/03-17:26:57.026 a Level-0 table #325: 10642 bytes OK
+2022/10/03-17:26:57.030 a Delete type=0 #322
+2022/10/03-17:27:33.253 a Level-0 table #327: started
+2022/10/03-17:27:33.259 a Level-0 table #327: 9531 bytes OK
+2022/10/03-17:27:33.263 a Delete type=0 #324
+2022/10/03-17:31:59.006 a Level-0 table #329: started
+2022/10/03-17:31:59.018 a Level-0 table #329: 11810 bytes OK
+2022/10/03-17:31:59.022 a Delete type=0 #326
+2022/10/03-17:31:59.023 a Compacting 4@0 + 1@1 files
+2022/10/03-17:31:59.028 a Generated table #330@0: 319 keys, 35012 bytes
+2022/10/03-17:31:59.028 a Compacted 4@0 + 1@1 files => 35012 bytes
+2022/10/03-17:31:59.032 a compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/10/03-17:31:59.033 a Delete type=2 #323
+2022/10/03-17:31:59.033 a Delete type=2 #329
+2022/10/03-17:31:59.033 a Delete type=2 #321
+2022/10/03-17:31:59.033 a Delete type=2 #327
+2022/10/03-17:31:59.033 a Delete type=2 #325
+2022/10/03-17:33:39.224 a Level-0 table #332: started
+2022/10/03-17:33:39.234 a Level-0 table #332: 17069 bytes OK
+2022/10/03-17:33:39.238 a Delete type=0 #328
+2022/10/03-17:38:01.557 a Level-0 table #334: started
+2022/10/03-17:38:01.561 a Level-0 table #334: 17290 bytes OK
+2022/10/03-17:38:01.565 a Delete type=0 #331

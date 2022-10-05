@@ -1,6 +1,6 @@
-2022/09/28-08:10:34.988 3 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2022/09/28-08:10:34.989 3 Recovering log #482
-2022/09/28-08:10:34.991 3 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000482.log 
-2022/09/28-08:45:13.398 10 Level-0 table #486: started
-2022/09/28-08:45:13.409 10 Level-0 table #486: 18618 bytes OK
-2022/09/28-08:45:13.413 10 Delete type=0 #482
+2022/10/05-08:19:00.904 5 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2022/10/05-08:19:00.904 5 Recovering log #541
+2022/10/05-08:19:00.905 5 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000541.log 
+2022/10/05-08:22:44.723 3 Level-0 table #545: started
+2022/10/05-08:22:44.728 3 Level-0 table #545: 129193 bytes OK
+2022/10/05-08:22:44.733 3 Delete type=0 #541

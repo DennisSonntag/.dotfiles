@@ -1,15 +1,6 @@
-2022/09/28-08:10:35.488 49f Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
-2022/09/28-08:10:35.488 49f Recovering log #92
-2022/09/28-08:10:35.503 49f Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Extension State/000092.log 
-2022/09/28-08:19:25.822 49d Level-0 table #96: started
-2022/09/28-08:19:25.839 49d Level-0 table #96: 2006321 bytes OK
-2022/09/28-08:19:25.844 49d Delete type=0 #92
-2022/09/28-08:19:25.844 49d Compacting 4@0 + 1@1 files
-2022/09/28-08:19:25.858 49d Generated table #97@0: 5 keys, 3856 bytes
-2022/09/28-08:19:25.858 49d Compacted 4@0 + 1@1 files => 3856 bytes
-2022/09/28-08:19:25.861 49d compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/09/28-08:19:25.861 49d Delete type=2 #93
-2022/09/28-08:19:25.861 49d Delete type=2 #90
-2022/09/28-08:19:25.861 49d Delete type=2 #96
-2022/09/28-08:19:25.861 49d Delete type=2 #87
-2022/09/28-08:19:25.861 49d Delete type=2 #84
+2022/10/05-08:19:01.535 5cf Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
+2022/10/05-08:19:01.535 5cf Recovering log #102
+2022/10/05-08:19:01.555 5cf Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Extension State/000102.log 
+2022/10/05-08:20:09.834 5d0 Level-0 table #106: started
+2022/10/05-08:20:09.845 5d0 Level-0 table #106: 2053636 bytes OK
+2022/10/05-08:20:09.850 5d0 Delete type=0 #102

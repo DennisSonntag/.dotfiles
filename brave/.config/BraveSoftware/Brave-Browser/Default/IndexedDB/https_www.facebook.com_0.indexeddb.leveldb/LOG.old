@@ -1,2 +1,3 @@
-2022/09/10-18:40:08.012 8cac Creating DB /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb since it was missing.
-2022/09/10-18:40:08.021 8cac Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/10-18:41:26.705 8e9a Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/10-18:41:26.705 8e9a Recovering log #3
+2022/09/10-18:41:26.705 8e9a Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000003.log 

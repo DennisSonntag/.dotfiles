@@ -41,7 +41,7 @@ return require("packer").startup(function(use)
 
 	--Colorscheme
 	use('navarasu/onedark.nvim')
-	use("Mofiqul/vscode.nvim")
+	--[[ use("Mofiqul/vscode.nvim") ]]
 	--[[ use('christianchiarulli/nvcode-color-schemes.vim') ]]
 	--[[ use("projekt0n/github-nvim-theme") ]]
 	--[[ use { "catppuccin/nvim", as = "catppuccin" } ]]
@@ -51,7 +51,7 @@ return require("packer").startup(function(use)
 	--[[ use("tjdevries/colorbuddy.nvim") ]]
 
 	--Show color codes
-	use("norcalli/nvim-colorizer.lua")
+	--[[ use("norcalli/nvim-colorizer.lua") ]]
 
 	--Faster Launch
 	use("lewis6991/impatient.nvim")
@@ -96,7 +96,7 @@ return require("packer").startup(function(use)
 	use("onsails/lspkind.nvim")
 
 	--Incremental rename
-	use("smjonas/inc-rename.nvim")
+	--[[ use("smjonas/inc-rename.nvim") ]]
 
 	--Mason
 	use("williamboman/mason-lspconfig.nvim")
