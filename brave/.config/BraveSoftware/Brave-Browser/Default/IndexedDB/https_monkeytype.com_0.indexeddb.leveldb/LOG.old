@@ -1,7 +1,30 @@
-2022/09/30-20:49:14.486 b399 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/30-20:49:14.486 b399 Recovering log #77
-2022/09/30-20:49:14.486 b399 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000077.log 
-2022/09/30-20:49:14.767 b399 Level-0 table #82: started
-2022/09/30-20:49:14.770 b399 Level-0 table #82: 738 bytes OK
-2022/09/30-20:49:14.776 b399 Delete type=0 #77
-2022/09/30-20:49:14.776 b399 Manual compaction at level-0 from '\x00\x14\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/01-17:01:22.072 4d8 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/01-17:01:22.072 4d8 Recovering log #124
+2022/12/01-17:01:22.072 4d8 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000124.log 
+2022/12/01-17:01:22.661 4c2 Level-0 table #128: started
+2022/12/01-17:01:22.664 4c2 Level-0 table #128: 3356 bytes OK
+2022/12/01-17:01:22.668 4c2 Delete type=0 #124
+2022/12/01-17:01:22.668 4c2 Manual compaction at level-0 from '\x00\x1f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00 \x00\x00\x00' @ 0 : 0; will stop at '\x00\x1f\x00\x00\x05' @ 2223 : 1
+2022/12/01-17:01:22.668 4c2 Compacting 1@0 + 1@1 files
+2022/12/01-17:01:22.672 4c2 Generated table #129@0: 46 keys, 4431 bytes
+2022/12/01-17:01:22.672 4c2 Compacted 1@0 + 1@1 files => 4431 bytes
+2022/12/01-17:01:22.678 4c2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/01-17:01:22.678 4c2 Delete type=2 #128
+2022/12/01-17:01:22.678 4c2 Manual compaction at level-0 from '\x00\x1f\x00\x00\x05' @ 2223 : 1 .. '\x00 \x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/01-17:02:00.276 92e Compacting 1@1 + 1@2 files
+2022/12/01-17:02:00.286 92e Generated table #130@1: 57 keys, 4637 bytes
+2022/12/01-17:02:00.286 92e Compacted 1@1 + 1@2 files => 4637 bytes
+2022/12/01-17:02:00.289 92e compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/01-17:02:00.290 92e Delete type=2 #129
+2022/12/01-17:02:00.290 92e Delete type=2 #122
+2022/12/01-17:02:00.290 92e Delete type=2 #125
+2022/12/01-17:03:13.157 4d8 Level-0 table #132: started
+2022/12/01-17:03:13.160 4d8 Level-0 table #132: 8613 bytes OK
+2022/12/01-17:03:13.166 4d8 Delete type=0 #127
+2022/12/01-17:03:13.166 4d8 Manual compaction at level-0 from '\x00 \x00\x00\x00' @ 72057594037927935 : 1 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/01-17:03:55.085 92e Compacting 1@1 + 1@2 files
+2022/12/01-17:03:55.094 92e Generated table #133@1: 57 keys, 4631 bytes
+2022/12/01-17:03:55.094 92e Compacted 1@1 + 1@2 files => 4631 bytes
+2022/12/01-17:03:55.097 92e compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/01-17:03:55.098 92e Delete type=2 #130
+2022/12/01-17:03:55.098 92e Delete type=2 #132

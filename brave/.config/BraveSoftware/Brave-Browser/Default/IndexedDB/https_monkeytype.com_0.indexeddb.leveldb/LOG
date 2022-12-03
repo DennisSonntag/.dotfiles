@@ -1,13 +1,13 @@
-2022/10/02-11:44:48.431 49c Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/10/02-11:44:48.431 49c Recovering log #81
-2022/10/02-11:44:48.431 49c Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000081.log 
-2022/10/02-11:44:48.821 4b2 Level-0 table #85: started
-2022/10/02-11:44:48.825 4b2 Level-0 table #85: 8239 bytes OK
-2022/10/02-11:44:48.835 4b2 Delete type=0 #81
-2022/10/02-11:44:48.835 49c Manual compaction at level-0 from '\x00\x15\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at '\x00\x15\x00\x00\x05' @ 1401 : 1
-2022/10/02-11:44:48.835 49c Compacting 1@0 + 1@1 files
-2022/10/02-11:44:48.839 49c Generated table #86@0: 31 keys, 4216 bytes
-2022/10/02-11:44:48.839 49c Compacted 1@0 + 1@1 files => 4216 bytes
-2022/10/02-11:44:48.842 49c compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/10/02-11:44:48.842 49c Delete type=2 #85
-2022/10/02-11:44:48.842 49c Manual compaction at level-0 from '\x00\x15\x00\x00\x05' @ 1401 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/01-18:25:01.364 625 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/01-18:25:01.365 625 Recovering log #131
+2022/12/01-18:25:01.365 625 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000131.log 
+2022/12/01-18:25:01.853 625 Level-0 table #136: started
+2022/12/01-18:25:01.856 625 Level-0 table #136: 8276 bytes OK
+2022/12/01-18:25:01.862 625 Delete type=0 #131
+2022/12/01-18:25:01.862 625 Manual compaction at level-0 from '\x00!\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/01-18:25:49.565 625 Compacting 1@1 + 1@2 files
+2022/12/01-18:25:49.574 625 Generated table #137@1: 57 keys, 4636 bytes
+2022/12/01-18:25:49.574 625 Compacted 1@1 + 1@2 files => 4636 bytes
+2022/12/01-18:25:49.578 625 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/01-18:25:49.578 625 Delete type=2 #136
+2022/12/01-18:25:49.578 625 Delete type=2 #133

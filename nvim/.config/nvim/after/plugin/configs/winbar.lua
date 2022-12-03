@@ -1,5 +1,16 @@
-require("nvim-gps").setup()
-require('winbar').setup({
+local status_ok, nvimgps = pcall(require, "nvim-gps")
+if not status_ok then
+	return
+end
+
+nvimgps.setup()
+
+local status_ok, winbar = pcall(require, "winbar")
+if not status_ok then
+	return
+end
+
+winbar.setup({
 	enabled = true,
 
 	show_file_path = false,

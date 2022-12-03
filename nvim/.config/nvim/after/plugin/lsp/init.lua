@@ -1,10 +1,15 @@
--- Mappings.
-require("mason").setup()
-require("rust-tools")
-require("null-ls")
+local status_ok, mason = pcall(require, "mason")
+if not status_ok then
+	return
+end
+mason.setup()
+
+
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
+
 local opts = { noremap = true, silent = true }
 --[[ vim.keymap.set('n', '<space>e', vim.diagnostic.open_float, opts) ]]
+-- Mappings.
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, opts)
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, opts)
 vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist, opts)

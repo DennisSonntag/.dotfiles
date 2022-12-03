@@ -1,0 +1,14 @@
+2022/10/23-16:30:20.729 4a9 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.netlify.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/23-16:30:20.729 4a9 Recovering log #66
+2022/10/23-16:30:20.729 4a9 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.netlify.com_0.indexeddb.leveldb/000066.log 
+2022/10/23-16:30:20.729 4a9 Delete type=2 #64
+2022/10/23-16:30:20.877 4a9 Level-0 table #71: started
+2022/10/23-16:30:20.880 4a9 Level-0 table #71: 1124 bytes OK
+2022/10/23-16:30:20.884 4a9 Delete type=0 #66
+2022/10/23-16:30:20.884 4a9 Manual compaction at level-0 from '\x00\x13\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x14\x00\x00\x00' @ 0 : 0; will stop at '\x00\x13\x00\x00\x05' @ 541 : 1
+2022/10/23-16:30:20.884 4a9 Compacting 1@0 + 1@1 files
+2022/10/23-16:30:20.887 4a9 Generated table #72@0: 28 keys, 1068 bytes
+2022/10/23-16:30:20.887 4a9 Compacted 1@0 + 1@1 files => 1068 bytes
+2022/10/23-16:30:20.891 4a9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/23-16:30:20.891 4a9 Delete type=2 #71
+2022/10/23-16:30:20.891 4a9 Manual compaction at level-0 from '\x00\x13\x00\x00\x05' @ 541 : 1 .. '\x00\x14\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,14 @@
+2022/10/19-16:44:09.821 a67 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_console.firebase.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/19-16:44:09.821 a67 Recovering log #14
+2022/10/19-16:44:09.821 a67 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_console.firebase.google.com_0.indexeddb.leveldb/000014.log 
+2022/10/19-16:44:09.822 a67 Delete type=2 #12
+2022/10/19-16:44:09.863 c85 Level-0 table #19: started
+2022/10/19-16:44:09.866 c85 Level-0 table #19: 1857 bytes OK
+2022/10/19-16:44:09.872 c85 Delete type=0 #14
+2022/10/19-16:44:09.872 c85 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 328 : 1
+2022/10/19-16:44:09.872 c85 Compacting 1@0 + 1@1 files
+2022/10/19-16:44:09.877 c85 Generated table #20@0: 26 keys, 1420 bytes
+2022/10/19-16:44:09.877 c85 Compacted 1@0 + 1@1 files => 1420 bytes
+2022/10/19-16:44:09.883 c85 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/19-16:44:09.883 c85 Delete type=2 #19
+2022/10/19-16:44:09.883 c85 Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 328 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

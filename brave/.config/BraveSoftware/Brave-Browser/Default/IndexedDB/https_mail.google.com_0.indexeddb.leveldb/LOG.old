@@ -1,15 +1,12 @@
-2022/10/08-23:16:29.021 c9a Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/10/08-23:16:29.021 c9a Recovering log #62
-2022/10/08-23:16:29.022 c9a Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000062.log 
-2022/10/08-23:18:43.192 38c2 Level-0 table #67: started
-2022/10/08-23:18:43.211 38c2 Level-0 table #67: 1036312 bytes OK
-2022/10/08-23:18:43.214 38c2 Delete type=0 #62
-2022/10/08-23:18:43.215 38c2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2022/10/08-23:18:43.215 38c2 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 36668 : 1
-2022/10/08-23:18:43.215 38c2 Compacting 1@1 + 1@2 files
-2022/10/08-23:18:43.220 38c2 Generated table #68@1: 108 keys, 91123 bytes
-2022/10/08-23:18:43.220 38c2 Compacted 1@1 + 1@2 files => 91123 bytes
-2022/10/08-23:18:43.224 38c2 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/10/08-23:18:43.224 38c2 Delete type=2 #64
-2022/10/08-23:18:43.224 38c2 Delete type=2 #67
-2022/10/08-23:18:43.224 38c2 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 36668 : 1 .. (end); will stop at (end)
+2022/12/01-18:24:47.100 4f4 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/01-18:24:47.100 4f4 Recovering log #93
+2022/12/01-18:24:47.105 4f4 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000093.log 
+2022/12/01-18:25:01.146 4d8 Level-0 table #99: started
+2022/12/01-18:25:01.165 4d8 Level-0 table #99: 1992018 bytes OK
+2022/12/01-18:25:01.172 4d8 Delete type=0 #93
+2022/12/01-19:41:47.797 193d Compacting 1@1 + 1@2 files
+2022/12/01-19:41:47.829 193d Generated table #100@1: 339 keys, 506945 bytes
+2022/12/01-19:41:47.829 193d Compacted 1@1 + 1@2 files => 506945 bytes
+2022/12/01-19:41:47.832 193d compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/01-19:41:47.833 193d Delete type=2 #96
+2022/12/01-19:41:47.833 193d Delete type=2 #99

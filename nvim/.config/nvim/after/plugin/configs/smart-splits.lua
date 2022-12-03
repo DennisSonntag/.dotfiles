@@ -1,4 +1,9 @@
-require('smart-splits').setup({
+local status_ok, smartsplits = pcall(require, "smart-splits")
+if not status_ok then
+	return
+end
+
+smartsplits.setup({
 	-- Ignored filetypes (only while resizing)
 	ignored_filetypes = {
 		'nofile',

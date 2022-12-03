@@ -1,0 +1,6 @@
+2022/11/28-22:33:55.074 4fb0 Creating DB /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.convertbinary.com_0.indexeddb.leveldb since it was missing.
+2022/11/28-22:33:55.092 4fb0 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.convertbinary.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/28-22:34:29.466 5034 Level-0 table #5: started
+2022/11/28-22:34:29.470 5034 Level-0 table #5: 1607 bytes OK
+2022/11/28-22:34:29.473 5034 Delete type=0 #3
+2022/11/28-22:34:29.473 5034 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

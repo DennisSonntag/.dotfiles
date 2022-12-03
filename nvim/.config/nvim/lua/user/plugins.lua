@@ -9,22 +9,22 @@ return require("packer").startup(function(use)
 
 
 	--Indentlines
-	use "lukas-reineke/indent-blankline.nvim"
+	use("lukas-reineke/indent-blankline.nvim")
 
 	--Stabalize new windows
 	use("luukvbaal/stabilize.nvim")
 
 	--Rust tools
-	use('simrat39/rust-tools.nvim')
+	--[[ use("simrat39/rust-tools.nvim") ]]
 
 	--Surround
 	use("kylechui/nvim-surround")
 
 	-- Debugging
-	-- use('mfussenegger/nvim-dap')
+	-- use("mfussenegger/nvim-dap")
 
 	--Folds
-	use { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' }
+	use { "kevinhwang91/nvim-ufo", requires = "kevinhwang91/promise-async" }
 	use("jghauser/fold-cycle.nvim")
 
 	--Toggle term
@@ -37,12 +37,12 @@ return require("packer").startup(function(use)
 
 
 	--Smart Splits
-	use('mrjones2014/smart-splits.nvim')
+	use("mrjones2014/smart-splits.nvim")
 
 	--Colorscheme
-	use('navarasu/onedark.nvim')
+	use("navarasu/onedark.nvim")
 	--[[ use("Mofiqul/vscode.nvim") ]]
-	--[[ use('christianchiarulli/nvcode-color-schemes.vim') ]]
+	--[[ use("christianchiarulli/nvcode-color-schemes.vim") ]]
 	--[[ use("projekt0n/github-nvim-theme") ]]
 	--[[ use { "catppuccin/nvim", as = "catppuccin" } ]]
 	--[[ use("folke/tokyonight.nvim") ]]
@@ -91,7 +91,7 @@ return require("packer").startup(function(use)
 	use("moll/vim-bbye")
 
 	--Lsp
-	use("jose-elias-alvarez/null-ls.nvim")
+	--[[ use("jose-elias-alvarez/null-ls.nvim") ]]
 	use("neovim/nvim-lspconfig")
 	use("onsails/lspkind.nvim")
 

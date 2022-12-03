@@ -1,3 +1,3 @@
-2022/09/29-19:47:13.641 18ec Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.newegg.ca_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/29-19:47:13.641 18ec Recovering log #3
-2022/09/29-19:47:13.641 18ec Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.newegg.ca_0.indexeddb.leveldb/000003.log 
+2022/11/30-16:52:59.559 2214 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.newegg.ca_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/30-16:52:59.559 2214 Recovering log #4
+2022/11/30-16:52:59.559 2214 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.newegg.ca_0.indexeddb.leveldb/000004.log 

@@ -1,24 +1,6 @@
-2022/10/10-19:52:04.199 3 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2022/10/10-19:52:04.202 3 Recovering log #358
-2022/10/10-19:52:04.202 3 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000358.log 
-2022/10/10-20:40:24.524 18 Level-0 table #362: started
-2022/10/10-20:40:24.535 18 Level-0 table #362: 21912 bytes OK
-2022/10/10-20:40:24.539 18 Delete type=0 #358
-2022/10/10-20:40:24.540 18 Compacting 4@0 + 1@1 files
-2022/10/10-20:40:24.544 18 Generated table #363@0: 93 keys, 17621 bytes
-2022/10/10-20:40:24.544 18 Compacted 4@0 + 1@1 files => 17621 bytes
-2022/10/10-20:40:24.548 18 compacted to: files[ 0 1 0 0 0 0 0 ]
-2022/10/10-20:40:24.549 18 Delete type=2 #359
-2022/10/10-20:40:24.549 18 Delete type=2 #354
-2022/10/10-20:40:24.549 18 Delete type=2 #351
-2022/10/10-20:40:24.549 18 Delete type=2 #362
-2022/10/10-20:40:24.549 18 Delete type=2 #356
-2022/10/10-20:48:02.844 18 Level-0 table #365: started
-2022/10/10-20:48:02.855 18 Level-0 table #365: 36025 bytes OK
-2022/10/10-20:48:02.860 18 Delete type=0 #361
-2022/10/10-20:57:44.972 21 Level-0 table #367: started
-2022/10/10-20:57:44.983 21 Level-0 table #367: 31543 bytes OK
-2022/10/10-20:57:44.987 21 Delete type=0 #364
-2022/10/10-21:08:02.844 2b Level-0 table #369: started
-2022/10/10-21:08:02.847 2b Level-0 table #369: 23450 bytes OK
-2022/10/10-21:08:02.851 2b Delete type=0 #366
+2022/12/03-11:56:04.984 3 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2022/12/03-11:56:04.985 3 Recovering log #774
+2022/12/03-11:56:04.986 3 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000774.log 
+2022/12/03-11:56:11.166 5 Level-0 table #778: started
+2022/12/03-11:56:11.169 5 Level-0 table #778: 16641 bytes OK
+2022/12/03-11:56:11.174 5 Delete type=0 #774

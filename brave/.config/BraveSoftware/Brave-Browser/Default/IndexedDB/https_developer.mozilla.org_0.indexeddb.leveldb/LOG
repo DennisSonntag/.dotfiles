@@ -1,0 +1,7 @@
+2022/10/19-23:01:56.906 fce Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developer.mozilla.org_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/19-23:01:56.906 fce Recovering log #3
+2022/10/19-23:01:56.907 fce Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developer.mozilla.org_0.indexeddb.leveldb/000003.log 
+2022/10/19-23:02:29.812 124d Level-0 table #5: started
+2022/10/19-23:02:29.816 124d Level-0 table #5: 9339 bytes OK
+2022/10/19-23:02:29.820 124d Delete type=0 #3
+2022/10/19-23:02:29.820 124d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

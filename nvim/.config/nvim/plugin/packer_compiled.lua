@@ -184,11 +184,6 @@ _G.packer_plugins = {
     path = "/home/dennis/.local/share/nvim/site/pack/packer/start/nui.nvim",
     url = "https://github.com/MunifTanjim/nui.nvim"
   },
-  ["null-ls.nvim"] = {
-    loaded = true,
-    path = "/home/dennis/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
-    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
-  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/dennis/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -268,11 +263,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/dennis/.local/share/nvim/site/pack/packer/start/promise-async",
     url = "https://github.com/kevinhwang91/promise-async"
-  },
-  ["rust-tools.nvim"] = {
-    loaded = true,
-    path = "/home/dennis/.local/share/nvim/site/pack/packer/start/rust-tools.nvim",
-    url = "https://github.com/simrat39/rust-tools.nvim"
   },
   ["smart-splits.nvim"] = {
     loaded = true,

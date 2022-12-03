@@ -1,0 +1,7 @@
+2022/10/17-01:42:39.715 49f0 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/17-01:42:39.715 49f0 Recovering log #3
+2022/10/17-01:42:39.716 49f0 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/000003.log 
+2022/10/17-01:42:54.556 4b6e Level-0 table #5: started
+2022/10/17-01:42:54.559 4b6e Level-0 table #5: 1316 bytes OK
+2022/10/17-01:42:54.563 4b6e Delete type=0 #3
+2022/10/17-01:42:54.563 4b6e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

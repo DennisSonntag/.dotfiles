@@ -1,0 +1,44 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "public/images/icon16.png",
+         "32": "public/images/icon32.png"
+      },
+      "default_popup": "public/popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "checkPageManual.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://*.firebaseio.com; object-src 'self'",
+   "declarative_net_request": {
+      "rule_resources": [  ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "public/images/icon128.png",
+      "16": "public/images/icon16.png",
+      "32": "public/images/icon32.png",
+      "48": "public/images/icon48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgFmSjU432CjKYI/w7UA8f6O2Z5TKhwccXRJd0EnDRwoGgi0wJqYkA++jqIMXHQMvqoZ1RC60H1woIYA8VY8O8Z3rIW5zmtE03YRVTI2VQYGDz1rK26ZKkS6Kg5u3eyre+bA7KWbesOWXDrZQ8NcczSgXtZJm8Oyj6vb95F4QaXwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "options_page": "public/options.html",
+   "permissions": [ "tabs", "declarativeNetRequest", "storage", "unlimitedStorage", "\u003Call_urls>", "contextMenus", "notifications", "webRequest", "webRequestBlocking", "webNavigation", "cookies" ],
+   "short_name": "__MSG_appShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.4.0",
+   "web_accessible_resources": [ "public/*", "public/images/*" ]
+}

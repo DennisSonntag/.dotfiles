@@ -1,0 +1,6 @@
+2022/11/07-19:00:10.315 aa30 Creating DB /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.thecodingden.net_0.indexeddb.leveldb since it was missing.
+2022/11/07-19:00:10.324 aa30 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.thecodingden.net_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/07-19:03:14.146 ad94 Level-0 table #5: started
+2022/11/07-19:03:14.150 ad94 Level-0 table #5: 1932 bytes OK
+2022/11/07-19:03:14.153 ad94 Delete type=0 #3
+2022/11/07-19:03:14.153 ad94 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
