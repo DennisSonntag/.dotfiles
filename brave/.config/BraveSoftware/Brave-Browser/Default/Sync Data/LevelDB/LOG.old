@@ -1,45 +1,6 @@
-2022/12/01-18:24:45.215 4d0 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
-2022/12/01-18:24:45.215 4d0 Recovering log #2591
-2022/12/01-18:24:45.218 4d0 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/002591.log 
-2022/12/01-18:24:47.263 625 Level-0 table #2595: started
-2022/12/01-18:24:47.267 625 Level-0 table #2595: 71379 bytes OK
-2022/12/01-18:24:47.271 625 Delete type=0 #2591
-2022/12/01-18:24:47.271 625 Compacting 4@0 + 1@1 files
-2022/12/01-18:24:47.308 625 Generated table #2596@0: 263 keys, 21693 bytes
-2022/12/01-18:24:47.308 625 Compacted 4@0 + 1@1 files => 21693 bytes
-2022/12/01-18:24:47.313 625 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/12/01-18:24:47.313 625 Delete type=2 #2592
-2022/12/01-18:24:47.313 625 Delete type=2 #2588
-2022/12/01-18:24:47.313 625 Delete type=2 #2586
-2022/12/01-18:24:47.313 625 Delete type=2 #2590
-2022/12/01-18:24:47.313 625 Delete type=2 #2595
-2022/12/01-18:36:23.578 123e Level-0 table #2598: started
-2022/12/01-18:36:23.585 123e Level-0 table #2598: 87900 bytes OK
-2022/12/01-18:36:23.590 123e Delete type=0 #2594
-2022/12/01-18:50:33.611 193e Level-0 table #2600: started
-2022/12/01-18:50:33.623 193e Level-0 table #2600: 77306 bytes OK
-2022/12/01-18:50:33.627 193e Delete type=0 #2597
-2022/12/01-18:59:45.971 1d2d Level-0 table #2602: started
-2022/12/01-18:59:45.984 1d2d Level-0 table #2602: 76869 bytes OK
-2022/12/01-18:59:45.988 1d2d Delete type=0 #2599
-2022/12/01-19:17:11.120 1d2c Level-0 table #2604: started
-2022/12/01-19:17:11.130 1d2c Level-0 table #2604: 42764 bytes OK
-2022/12/01-19:17:11.134 1d2c Delete type=0 #2601
-2022/12/01-19:17:11.134 1d2c Compacting 4@0 + 1@1 files
-2022/12/01-19:17:11.140 1d2c Generated table #2605@0: 263 keys, 25964 bytes
-2022/12/01-19:17:11.140 1d2c Compacted 4@0 + 1@1 files => 25964 bytes
-2022/12/01-19:17:11.143 1d2c compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/12/01-19:17:11.143 1d2c Delete type=2 #2604
-2022/12/01-19:17:11.143 1d2c Delete type=2 #2598
-2022/12/01-19:17:11.143 1d2c Delete type=2 #2602
-2022/12/01-19:17:11.143 1d2c Delete type=2 #2596
-2022/12/01-19:17:11.143 1d2c Delete type=2 #2600
-2022/12/01-19:32:54.022 1d2c Level-0 table #2607: started
-2022/12/01-19:32:54.034 1d2c Level-0 table #2607: 42599 bytes OK
-2022/12/01-19:32:54.038 1d2c Delete type=0 #2603
-2022/12/01-19:45:04.743 1d2c Level-0 table #2609: started
-2022/12/01-19:45:04.753 1d2c Level-0 table #2609: 71677 bytes OK
-2022/12/01-19:45:04.757 1d2c Delete type=0 #2606
-2022/12/01-20:02:53.663 1d2c Level-0 table #2611: started
-2022/12/01-20:02:53.673 1d2c Level-0 table #2611: 45178 bytes OK
-2022/12/01-20:02:53.678 1d2c Delete type=0 #2608
+2022/12/04-19:56:57.166 4ab Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/12/04-19:56:57.166 4ab Recovering log #2626
+2022/12/04-19:56:57.167 4ab Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/002626.log 
+2022/12/04-20:18:03.331 ab8 Level-0 table #2631: started
+2022/12/04-20:18:03.340 ab8 Level-0 table #2631: 73239 bytes OK
+2022/12/04-20:18:03.344 ab8 Delete type=0 #2626

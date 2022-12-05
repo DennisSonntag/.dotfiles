@@ -1,19 +1,6 @@
-2022/12/01-18:24:45.212 3 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2022/12/01-18:24:45.215 3 Recovering log #1525
-2022/12/01-18:24:45.217 3 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001525.log 
-2022/12/01-19:39:25.065 2b Level-0 table #1529: started
-2022/12/01-19:39:25.076 2b Level-0 table #1529: 14492 bytes OK
-2022/12/01-19:39:25.083 2b Delete type=0 #1525
-2022/12/01-19:39:25.083 2b Compacting 4@0 + 3@1 files
-2022/12/01-19:39:25.131 2b Generated table #1530@0: 2227 keys, 2225394 bytes
-2022/12/01-19:39:25.176 2b Generated table #1531@0: 2119 keys, 2168608 bytes
-2022/12/01-19:39:25.199 2b Generated table #1532@0: 6410 keys, 1509815 bytes
-2022/12/01-19:39:25.199 2b Compacted 4@0 + 3@1 files => 5903817 bytes
-2022/12/01-19:39:25.203 2b compacted to: files[ 0 3 1 0 0 0 0 ]
-2022/12/01-19:39:25.204 2b Delete type=2 #1521
-2022/12/01-19:39:25.204 2b Delete type=2 #1529
-2022/12/01-19:39:25.204 2b Delete type=2 #1519
-2022/12/01-19:39:25.204 2b Delete type=2 #1517
-2022/12/01-19:39:25.204 2b Delete type=2 #1526
-2022/12/01-19:39:25.204 2b Delete type=2 #1524
-2022/12/01-19:39:25.204 2b Delete type=2 #1518
+2022/12/04-19:56:57.167 3 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2022/12/04-19:56:57.168 3 Recovering log #1561
+2022/12/04-19:56:57.169 3 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001561.log 
+2022/12/04-19:57:01.962 3 Level-0 table #1565: started
+2022/12/04-19:57:01.966 3 Level-0 table #1565: 23564 bytes OK
+2022/12/04-19:57:01.970 3 Delete type=0 #1561

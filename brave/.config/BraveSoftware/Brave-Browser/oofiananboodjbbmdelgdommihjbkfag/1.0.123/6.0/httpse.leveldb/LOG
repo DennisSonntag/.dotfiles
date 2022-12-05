@@ -1,5 +1,5 @@
-2022/12/03-11:56:04.836 63c Recovering log #3
-2022/12/03-11:56:04.926 63c Level-0 table #5: started
-2022/12/03-11:56:04.968 63c Level-0 table #5: 2784740 bytes OK
-2022/12/03-11:56:04.980 63c Delete type=3 #2
-2022/12/03-11:56:04.980 63c Delete type=0 #3
+2022/12/04-22:27:43.534 5f5 Recovering log #3
+2022/12/04-22:27:43.643 5f5 Level-0 table #5: started
+2022/12/04-22:27:43.714 5f5 Level-0 table #5: 2784740 bytes OK
+2022/12/04-22:27:43.726 5f5 Delete type=3 #2
+2022/12/04-22:27:43.726 5f5 Delete type=0 #3
