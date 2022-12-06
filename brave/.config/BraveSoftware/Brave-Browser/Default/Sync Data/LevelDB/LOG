@@ -1,3 +1,6 @@
 2022/12/04-22:27:43.413 5dc Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
 2022/12/04-22:27:43.413 5dc Recovering log #2630
 2022/12/04-22:27:43.414 5dc Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/002630.log 
+2022/12/04-22:46:02.758 8f0 Level-0 table #2634: started
+2022/12/04-22:46:02.765 8f0 Level-0 table #2634: 79526 bytes OK
+2022/12/04-22:46:02.772 8f0 Delete type=0 #2630

@@ -7,3 +7,12 @@
 2022/12/04-22:27:44.854 5f0 compacted to: files[ 0 0 1 0 0 0 0 ]
 2022/12/04-22:27:44.854 5f0 Delete type=2 #9
 2022/12/04-22:27:44.854 5f0 Delete type=2 #11
+2022/12/04-22:46:20.469 8ee Level-0 table #15: started
+2022/12/04-22:46:20.481 8ee Level-0 table #15: 1013978 bytes OK
+2022/12/04-22:46:20.487 8ee Delete type=0 #10
+2022/12/04-22:46:57.773 8ee Compacting 1@1 + 1@2 files
+2022/12/04-22:46:57.779 8ee Generated table #16@1: 444 keys, 40113 bytes
+2022/12/04-22:46:57.779 8ee Compacted 1@1 + 1@2 files => 40113 bytes
+2022/12/04-22:46:57.785 8ee compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/04-22:46:57.785 8ee Delete type=2 #15
+2022/12/04-22:46:57.785 8ee Delete type=2 #13
