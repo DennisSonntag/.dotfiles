@@ -4,3 +4,15 @@
 2022/12/05-23:08:51.526 946 Level-0 table #2637: started
 2022/12/05-23:08:51.536 946 Level-0 table #2637: 76853 bytes OK
 2022/12/05-23:08:51.546 946 Delete type=0 #2633
+2022/12/05-23:23:03.986 ef6 Level-0 table #2639: started
+2022/12/05-23:23:03.997 ef6 Level-0 table #2639: 75995 bytes OK
+2022/12/05-23:23:04.003 ef6 Delete type=0 #2636
+2022/12/05-23:23:04.003 ef6 Compacting 4@0 + 1@1 files
+2022/12/05-23:23:04.008 ef6 Generated table #2640@0: 265 keys, 25264 bytes
+2022/12/05-23:23:04.008 ef6 Compacted 4@0 + 1@1 files => 25264 bytes
+2022/12/05-23:23:04.011 ef6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/05-23:23:04.011 ef6 Delete type=2 #2637
+2022/12/05-23:23:04.011 ef6 Delete type=2 #2634
+2022/12/05-23:23:04.011 ef6 Delete type=2 #2628
+2022/12/05-23:23:04.011 ef6 Delete type=2 #2631
+2022/12/05-23:23:04.011 ef6 Delete type=2 #2639
