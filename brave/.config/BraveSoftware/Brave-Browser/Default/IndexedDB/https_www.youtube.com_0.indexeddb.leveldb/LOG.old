@@ -1,15 +1,18 @@
-2022/12/04-19:57:07.146 4ac Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/04-19:57:07.146 4ac Recovering log #4
-2022/12/04-19:57:07.169 4ac Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000004.log 
-2022/12/04-19:57:10.659 4ac Level-0 table #8: started
-2022/12/04-19:57:10.674 4ac Level-0 table #8: 1146424 bytes OK
-2022/12/04-19:57:10.678 4ac Delete type=0 #4
-2022/12/04-19:57:26.449 4ce Compacting 1@1 + 1@2 files
-2022/12/04-19:57:26.466 4ce Generated table #9@1: 344 keys, 37764 bytes
-2022/12/04-19:57:26.466 4ce Compacted 1@1 + 1@2 files => 37764 bytes
-2022/12/04-19:57:26.472 4ce compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/12/04-20:22:33.683 c9a Level-0 table #11: started
-2022/12/04-20:22:33.696 c9a Level-0 table #11: 1058228 bytes OK
-2022/12/04-20:22:33.700 c9a Delete type=2 #8
-2022/12/04-20:22:33.700 c9a Delete type=0 #7
-2022/12/04-20:22:33.700 c9a Delete type=2 #5
+2022/12/04-22:27:44.468 5f6 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/04-22:27:44.468 5f6 Recovering log #10
+2022/12/04-22:27:44.471 5f6 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000010.log 
+2022/12/04-22:27:44.842 5f0 Compacting 1@1 + 1@2 files
+2022/12/04-22:27:44.849 5f0 Generated table #13@1: 439 keys, 38033 bytes
+2022/12/04-22:27:44.849 5f0 Compacted 1@1 + 1@2 files => 38033 bytes
+2022/12/04-22:27:44.854 5f0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/04-22:27:44.854 5f0 Delete type=2 #9
+2022/12/04-22:27:44.854 5f0 Delete type=2 #11
+2022/12/04-22:46:20.469 8ee Level-0 table #15: started
+2022/12/04-22:46:20.481 8ee Level-0 table #15: 1013978 bytes OK
+2022/12/04-22:46:20.487 8ee Delete type=0 #10
+2022/12/04-22:46:57.773 8ee Compacting 1@1 + 1@2 files
+2022/12/04-22:46:57.779 8ee Generated table #16@1: 444 keys, 40113 bytes
+2022/12/04-22:46:57.779 8ee Compacted 1@1 + 1@2 files => 40113 bytes
+2022/12/04-22:46:57.785 8ee compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/04-22:46:57.785 8ee Delete type=2 #15
+2022/12/04-22:46:57.785 8ee Delete type=2 #13

@@ -1,18 +1,12 @@
-2022/12/04-22:27:44.468 5f6 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/04-22:27:44.468 5f6 Recovering log #10
-2022/12/04-22:27:44.471 5f6 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000010.log 
-2022/12/04-22:27:44.842 5f0 Compacting 1@1 + 1@2 files
-2022/12/04-22:27:44.849 5f0 Generated table #13@1: 439 keys, 38033 bytes
-2022/12/04-22:27:44.849 5f0 Compacted 1@1 + 1@2 files => 38033 bytes
-2022/12/04-22:27:44.854 5f0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/12/04-22:27:44.854 5f0 Delete type=2 #9
-2022/12/04-22:27:44.854 5f0 Delete type=2 #11
-2022/12/04-22:46:20.469 8ee Level-0 table #15: started
-2022/12/04-22:46:20.481 8ee Level-0 table #15: 1013978 bytes OK
-2022/12/04-22:46:20.487 8ee Delete type=0 #10
-2022/12/04-22:46:57.773 8ee Compacting 1@1 + 1@2 files
-2022/12/04-22:46:57.779 8ee Generated table #16@1: 444 keys, 40113 bytes
-2022/12/04-22:46:57.779 8ee Compacted 1@1 + 1@2 files => 40113 bytes
-2022/12/04-22:46:57.785 8ee compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/12/04-22:46:57.785 8ee Delete type=2 #15
-2022/12/04-22:46:57.785 8ee Delete type=2 #13
+2022/12/05-22:59:12.216 614 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/05-22:59:12.216 614 Recovering log #14
+2022/12/05-22:59:12.219 614 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000014.log 
+2022/12/05-23:08:10.778 99b Level-0 table #19: started
+2022/12/05-23:08:10.793 99b Level-0 table #19: 1029553 bytes OK
+2022/12/05-23:08:10.797 99b Delete type=0 #14
+2022/12/05-23:08:57.111 8bc Compacting 1@1 + 1@2 files
+2022/12/05-23:08:57.121 8bc Generated table #20@1: 427 keys, 38243 bytes
+2022/12/05-23:08:57.121 8bc Compacted 1@1 + 1@2 files => 38243 bytes
+2022/12/05-23:08:57.125 8bc compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/05-23:08:57.125 8bc Delete type=2 #19
+2022/12/05-23:08:57.125 8bc Delete type=2 #16
