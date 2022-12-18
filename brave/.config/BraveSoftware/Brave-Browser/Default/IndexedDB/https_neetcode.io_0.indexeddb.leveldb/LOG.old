@@ -1,0 +1,25 @@
+2022/12/12-13:17:40.437 8e4 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neetcode.io_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/12-13:17:40.437 8e4 Recovering log #12
+2022/12/12-13:17:40.437 8e4 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neetcode.io_0.indexeddb.leveldb/000012.log 
+2022/12/12-13:17:40.437 8e4 Delete type=2 #11
+2022/12/12-13:17:40.672 8f3 Level-0 table #17: started
+2022/12/12-13:17:40.673 8f3 Level-0 table #17: 3213 bytes OK
+2022/12/12-13:17:40.674 8f3 Delete type=0 #12
+2022/12/12-13:17:40.674 8f3 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 459 : 1
+2022/12/12-13:17:40.674 8f3 Compacting 1@0 + 1@1 files
+2022/12/12-13:17:40.676 8f3 Generated table #18@0: 147 keys, 3284 bytes
+2022/12/12-13:17:40.676 8f3 Compacted 1@0 + 1@1 files => 3284 bytes
+2022/12/12-13:17:40.677 8f3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/12-13:17:40.677 8f3 Delete type=2 #17
+2022/12/12-13:17:40.677 8f3 Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 459 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/12-13:17:40.749 8f3 Level-0 table #20: started
+2022/12/12-13:17:40.750 8f3 Level-0 table #20: 634 bytes OK
+2022/12/12-13:17:40.750 8f3 Delete type=2 #14
+2022/12/12-13:17:40.750 8f3 Delete type=0 #16
+2022/12/12-13:17:40.750 8e5 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 488 : 1
+2022/12/12-13:17:40.750 8e5 Compacting 1@0 + 1@1 files
+2022/12/12-13:17:40.751 8e5 Generated table #21@0: 151 keys, 3290 bytes
+2022/12/12-13:17:40.751 8e5 Compacted 1@0 + 1@1 files => 3290 bytes
+2022/12/12-13:17:40.752 8e5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/12-13:17:40.752 8e5 Delete type=2 #20
+2022/12/12-13:17:40.752 8e5 Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 488 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

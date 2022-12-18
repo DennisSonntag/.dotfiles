@@ -1,15 +1,12 @@
-2022/12/01-18:57:37.005 1d2c Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/01-18:57:37.005 1d2c Recovering log #15
-2022/12/01-18:57:37.010 1d2c Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000015.log 
-2022/12/01-19:38:24.886 1d2c Level-0 table #20: started
-2022/12/01-19:38:24.898 1d2c Level-0 table #20: 870582 bytes OK
-2022/12/01-19:38:24.903 1d2c Delete type=0 #15
-2022/12/01-19:38:24.903 1d2c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2022/12/01-19:38:24.903 1d2c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01\x0a\x00p\x00o\x00s\x00t\x00s\x00.\x00b\x00y\x00I\x00d' @ 10846 : 0
-2022/12/01-19:38:24.903 1d2c Compacting 1@1 + 1@2 files
-2022/12/01-19:38:24.908 1d2c Generated table #21@1: 54 keys, 18926 bytes
-2022/12/01-19:38:24.908 1d2c Compacted 1@1 + 1@2 files => 18926 bytes
-2022/12/01-19:38:24.912 1d2c compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/12/01-19:38:24.912 1d2c Delete type=2 #20
-2022/12/01-19:38:24.912 1d2c Delete type=2 #17
-2022/12/01-19:38:24.913 1d2c Manual compaction at level-1 from '\x00\x01\x01\x03\x01\x0a\x00p\x00o\x00s\x00t\x00s\x00.\x00b\x00y\x00I\x00d' @ 10846 : 0 .. (end); will stop at (end)
+2022/12/18-12:21:51.905 b94 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/18-12:21:51.905 b94 Recovering log #25
+2022/12/18-12:21:51.913 b94 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000025.log 
+2022/12/18-12:21:53.208 999 Level-0 table #31: started
+2022/12/18-12:21:53.214 999 Level-0 table #31: 1135776 bytes OK
+2022/12/18-12:21:53.215 999 Delete type=0 #25
+2022/12/18-12:22:01.031 97e Compacting 1@1 + 1@2 files
+2022/12/18-12:22:01.034 97e Generated table #32@1: 66 keys, 15200 bytes
+2022/12/18-12:22:01.034 97e Compacted 1@1 + 1@2 files => 15200 bytes
+2022/12/18-12:22:01.035 97e compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/18-12:22:01.035 97e Delete type=2 #28
+2022/12/18-12:22:01.035 97e Delete type=2 #31

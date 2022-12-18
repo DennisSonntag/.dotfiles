@@ -1,0 +1,7 @@
+2022/12/16-12:36:42.429 cd2 Creating DB /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_hackernoon.com_0.indexeddb.leveldb since it was missing.
+2022/12/16-12:36:42.430 cd2 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_hackernoon.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/16-12:36:42.750 1061 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/16-13:24:43.018 173c Level-0 table #5: started
+2022/12/16-13:24:43.020 173c Level-0 table #5: 1400 bytes OK
+2022/12/16-13:24:43.021 173c Delete type=0 #3
+2022/12/16-13:24:43.022 173c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,21 +1,9 @@
-2022/12/05-22:58:43.447 60b Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/MANIFEST-000001
-2022/12/05-22:58:43.447 60b Recovering log #260
-2022/12/05-22:58:43.448 60b Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/000260.log 
-2022/12/05-22:59:15.224 614 Level-0 table #264: started
-2022/12/05-22:59:15.274 614 Level-0 table #264: 6758671 bytes OK
-2022/12/05-22:59:15.281 614 Delete type=0 #260
-2022/12/05-23:12:35.859 ab0 Level-0 table #266: started
-2022/12/05-23:12:35.915 ab0 Level-0 table #266: 6095939 bytes OK
-2022/12/05-23:12:35.919 ab0 Delete type=0 #263
-2022/12/05-23:12:35.921 ab0 Compacting 4@0 + 1@1 files
-2022/12/05-23:12:36.023 ab0 Generated table #267@0: 14 keys, 6132977 bytes
-2022/12/05-23:12:36.023 ab0 Compacted 4@0 + 1@1 files => 6132977 bytes
-2022/12/05-23:12:36.027 ab0 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/12/05-23:12:36.027 ab0 Delete type=2 #264
-2022/12/05-23:12:36.027 ab0 Delete type=2 #258
-2022/12/05-23:12:36.027 ab0 Delete type=2 #266
-2022/12/05-23:12:36.027 ab0 Delete type=2 #261
-2022/12/05-23:12:36.027 ab0 Delete type=2 #255
-2022/12/05-23:23:01.229 ef5 Level-0 table #269: started
-2022/12/05-23:23:01.337 ef5 Level-0 table #269: 6095922 bytes OK
-2022/12/05-23:23:01.344 ef5 Delete type=0 #265
+2022/12/18-12:28:20.233 52f Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/MANIFEST-000001
+2022/12/18-12:28:20.233 52f Recovering log #720
+2022/12/18-12:28:20.237 52f Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/000720.log 
+2022/12/18-12:29:38.037 730 Level-0 table #724: started
+2022/12/18-12:29:38.047 730 Level-0 table #724: 1506498 bytes OK
+2022/12/18-12:29:38.048 730 Delete type=0 #720
+2022/12/18-13:13:19.400 40df Level-0 table #726: started
+2022/12/18-13:13:19.418 40df Level-0 table #726: 2198980 bytes OK
+2022/12/18-13:13:19.419 40df Delete type=0 #723

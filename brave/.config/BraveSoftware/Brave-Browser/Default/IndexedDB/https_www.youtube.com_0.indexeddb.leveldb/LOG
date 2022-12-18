@@ -1,12 +1,12 @@
-2022/12/05-22:59:12.216 614 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/05-22:59:12.216 614 Recovering log #14
-2022/12/05-22:59:12.219 614 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000014.log 
-2022/12/05-23:08:10.778 99b Level-0 table #19: started
-2022/12/05-23:08:10.793 99b Level-0 table #19: 1029553 bytes OK
-2022/12/05-23:08:10.797 99b Delete type=0 #14
-2022/12/05-23:08:57.111 8bc Compacting 1@1 + 1@2 files
-2022/12/05-23:08:57.121 8bc Generated table #20@1: 427 keys, 38243 bytes
-2022/12/05-23:08:57.121 8bc Compacted 1@1 + 1@2 files => 38243 bytes
-2022/12/05-23:08:57.125 8bc compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/12/05-23:08:57.125 8bc Delete type=2 #19
-2022/12/05-23:08:57.125 8bc Delete type=2 #16
+2022/12/18-12:28:20.431 559 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/18-12:28:20.431 559 Recovering log #309
+2022/12/18-12:28:20.434 559 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000309.log 
+2022/12/18-13:23:49.234 26bd Level-0 table #314: started
+2022/12/18-13:23:49.275 26bd Level-0 table #314: 1215464 bytes OK
+2022/12/18-13:23:49.277 26bd Delete type=0 #309
+2022/12/18-13:24:06.977 26bd Compacting 1@1 + 1@2 files
+2022/12/18-13:24:06.985 26bd Generated table #315@1: 456 keys, 33854 bytes
+2022/12/18-13:24:06.985 26bd Compacted 1@1 + 1@2 files => 33854 bytes
+2022/12/18-13:24:06.987 26bd compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/18-13:24:06.987 26bd Delete type=2 #311
+2022/12/18-13:24:06.987 26bd Delete type=2 #314

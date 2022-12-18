@@ -1,3 +1,15 @@
-2022/11/07-16:43:52.229 48f Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/07-16:43:52.229 48f Recovering log #11
-2022/11/07-16:43:52.230 48f Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/000011.log 
+2022/12/15-18:35:25.924 274d Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/15-18:35:25.924 274d Recovering log #11
+2022/12/15-18:35:25.925 274d Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/000011.log 
+2022/12/15-19:50:32.839 3461 Level-0 table #16: started
+2022/12/15-19:50:32.840 3461 Level-0 table #16: 22332 bytes OK
+2022/12/15-19:50:32.841 3461 Delete type=0 #11
+2022/12/15-19:50:32.841 3461 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/12/15-19:50:32.841 3461 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01?\x00b\x00y\x00t\x00e\x00d\x00-\x00w\x00e\x00b\x00a\x00p\x00p\x00-\x00r\x00e\x00g\x00i\x00s\x00t\x00e\x00r\x00!\x001\x00:\x009\x009\x005\x001\x002\x000\x002\x004\x004\x006\x008\x001\x00:\x00w\x00e\x00b\x00:\x00d\x001\x007\x005\x00c\x00a\x00e\x00b\x004\x003\x00d\x00e\x004\x003\x005\x003\x00d\x00e\x00e\x00a\x001\x008' @ 246 : 1
+2022/12/15-19:50:32.841 3461 Compacting 1@1 + 1@2 files
+2022/12/15-19:50:32.842 3461 Generated table #17@1: 21 keys, 1372 bytes
+2022/12/15-19:50:32.842 3461 Compacted 1@1 + 1@2 files => 1372 bytes
+2022/12/15-19:50:32.843 3461 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/15-19:50:32.843 3461 Delete type=2 #13
+2022/12/15-19:50:32.843 3461 Delete type=2 #16
+2022/12/15-19:50:32.843 3461 Manual compaction at level-1 from '\x00\x01\x01\x02\x01?\x00b\x00y\x00t\x00e\x00d\x00-\x00w\x00e\x00b\x00a\x00p\x00p\x00-\x00r\x00e\x00g\x00i\x00s\x00t\x00e\x00r\x00!\x001\x00:\x009\x009\x005\x001\x002\x000\x002\x004\x004\x006\x008\x001\x00:\x00w\x00e\x00b\x00:\x00d\x001\x007\x005\x00c\x00a\x00e\x00b\x004\x003\x00d\x00e\x004\x003\x005\x003\x00d\x00e\x00e\x00a\x001\x008' @ 246 : 1 .. (end); will stop at (end)

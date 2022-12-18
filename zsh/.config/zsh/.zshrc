@@ -20,6 +20,8 @@ _comp_options+=(globdots)		# Include hidden files.
 bindkey -v
 export KEYTIMEOUT=1
 
+export PATH=$PATH:~/bin
+
 # Use vim keys in tab complete menu:
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
@@ -69,10 +71,16 @@ alias v="nvim"
 alias ..="cd .."
 alias ls="lsd -1"
 alias la="lsd -1A"
+alias gpush="git push origin master"
+
+# To customize prompt, run `p10k configure` or edit ~/.config/zsh//.p10k.zsh.
+[[ ! -f ~/.config/zsh//.p10k.zsh ]] || source ~/.config/zsh//.p10k.zsh
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+source "$HOME/.cargo/env"
 
-# To customize prompt, run `p10k configure` or edit ~/.config/zsh//.p10k.zsh.
-[[ ! -f ~/.config/zsh//.p10k.zsh ]] || source ~/.config/zsh//.p10k.zsh

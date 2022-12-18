@@ -26,6 +26,9 @@ nnoremap("<leader>lf", " <cmd>lua vim.lsp.buf.format() <CR>")
 
 nnoremap("<C-q>", "<cmd>q<CR>")
 
+nnoremap("<C-u>", "<C-u>zz")
+nnoremap("<C-d>", "<C-d>zz")
+
 --Folds
 nnoremap("<A-f>", "<cmd>lua require('fold-cycle').toggle_all()<CR>")
 
