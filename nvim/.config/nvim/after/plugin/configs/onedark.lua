@@ -27,7 +27,17 @@ onedark.setup {
 	},
 
 	-- Custom Highlights --
-	colors = {}, -- Override default colors
+	colors = {
+		black = "#0c0e15",
+		-- bg0 = "#1a212e",
+		bg0 = "#121520",
+		bg1 = "#21283b",
+		bg2 = "#283347",
+		bg3 = "#2a324a",
+		bg_d = "#141b24",
+		bg_blue = "#54b0fd",
+
+	}, -- Override default colors
 	highlights = {}, -- Override highlight groups
 
 	-- Plugins Config --

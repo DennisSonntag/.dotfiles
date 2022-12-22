@@ -11,8 +11,8 @@ bufferline.setup {
 		always_show_bufferline = true,
 		show_tab_indicators = true,
 		persist_buffer_sort = true,
-		--[[ separator_style = "thick", ]]
-		separator_style = "slant",
+		separator_style = "thick",
+		-- separator_style = "slant",
 		right_trunc_marker = '',
 		show_buffer_icons = true,
 		diagnostics = "nvim_lsp",
@@ -32,7 +32,7 @@ bufferline.setup {
 		mode = "buffers",
 		indicator = {
 			--[[ icon = '▎', ]]
-			style = 'underline',
+			style = 'none',
 		},
 	},
 	--[[ fg = '#c75ae8', ]]

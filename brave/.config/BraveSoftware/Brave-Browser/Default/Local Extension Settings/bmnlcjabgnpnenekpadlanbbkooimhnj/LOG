@@ -1,9 +1,21 @@
-2022/12/18-12:28:20.233 52f Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/MANIFEST-000001
-2022/12/18-12:28:20.233 52f Recovering log #720
-2022/12/18-12:28:20.237 52f Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/000720.log 
-2022/12/18-12:29:38.037 730 Level-0 table #724: started
-2022/12/18-12:29:38.047 730 Level-0 table #724: 1506498 bytes OK
-2022/12/18-12:29:38.048 730 Delete type=0 #720
-2022/12/18-13:13:19.400 40df Level-0 table #726: started
-2022/12/18-13:13:19.418 40df Level-0 table #726: 2198980 bytes OK
-2022/12/18-13:13:19.419 40df Delete type=0 #723
+2022/12/21-22:11:05.260 1607 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/MANIFEST-000001
+2022/12/21-22:11:05.260 1607 Recovering log #848
+2022/12/21-22:11:05.263 1607 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/000848.log 
+2022/12/21-22:33:37.579 427d Level-0 table #852: started
+2022/12/21-22:33:37.590 427d Level-0 table #852: 1599813 bytes OK
+2022/12/21-22:33:37.594 427d Delete type=0 #848
+2022/12/21-23:21:42.392 5e91 Level-0 table #854: started
+2022/12/21-23:21:42.416 5e91 Level-0 table #854: 2211968 bytes OK
+2022/12/21-23:21:42.417 5e91 Delete type=0 #851
+2022/12/21-23:21:42.418 5e91 Compacting 4@0 + 1@1 files
+2022/12/21-23:21:42.453 5e91 Generated table #855@0: 16 keys, 2288866 bytes
+2022/12/21-23:21:42.453 5e91 Compacted 4@0 + 1@1 files => 2288866 bytes
+2022/12/21-23:21:42.454 5e91 compacted to: files[ 0 2 1 0 0 0 0 ]
+2022/12/21-23:21:42.454 5e91 Delete type=2 #847
+2022/12/21-23:21:42.454 5e91 Delete type=2 #849
+2022/12/21-23:21:42.454 5e91 Delete type=2 #845
+2022/12/21-23:21:42.454 5e91 Delete type=2 #854
+2022/12/21-23:21:42.454 5e91 Delete type=2 #852
+2022/12/21-23:53:20.502 87bb Level-0 table #857: started
+2022/12/21-23:53:20.524 87bb Level-0 table #857: 2211980 bytes OK
+2022/12/21-23:53:20.525 87bb Delete type=0 #853

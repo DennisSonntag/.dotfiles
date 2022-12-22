@@ -1,6 +1,8 @@
 -- Only required if you have packer configured as `opt`
 vim.cmd([[packadd packer.nvim]])
 
+
+
 return require("packer").startup(function(use)
 	-- Packer can manage itself
 	use("wbthomason/packer.nvim")
@@ -14,14 +16,12 @@ return require("packer").startup(function(use)
 	--Stabalize new windows
 	use("luukvbaal/stabilize.nvim")
 
+
 	--Rust tools
 	--[[ use("simrat39/rust-tools.nvim") ]]
 
 	--Surround
 	use("kylechui/nvim-surround")
-
-	-- Debugging
-	-- use("mfussenegger/nvim-dap")
 
 	--Folds
 	use { "kevinhwang91/nvim-ufo", requires = "kevinhwang91/promise-async" }
@@ -31,13 +31,13 @@ return require("packer").startup(function(use)
 	use("akinsho/toggleterm.nvim")
 
 	--Winbar
-	--[[ use("fgheng/winbar.nvim") ]]
-	--[[ use("SmiteshP/nvim-gps") ]]
 	use("SmiteshP/nvim-navic")
 
 
 	--Smart Splits
 	use("mrjones2014/smart-splits.nvim")
+	use("declancm/maximize.nvim")
+
 
 	--Colorscheme
 	use("navarasu/onedark.nvim")
@@ -51,7 +51,7 @@ return require("packer").startup(function(use)
 	--[[ use("tjdevries/colorbuddy.nvim") ]]
 
 	--Show color codes
-	--[[ use("norcalli/nvim-colorizer.lua") ]]
+	use("norcalli/nvim-colorizer.lua")
 
 	--Faster Launch
 	use("lewis6991/impatient.nvim")
@@ -65,13 +65,18 @@ return require("packer").startup(function(use)
 	--Autosave
 	use("Pocco81/auto-save.nvim")
 
-	--Better ui
-	--[[ use("numToStr/Comment.nvim") ]]
-	--[[ use("stevearc/dressing.nvim") ]]
-
 	--File tree
-	use("nvim-neo-tree/neo-tree.nvim")
-	use("MunifTanjim/nui.nvim")
+	-- use("nvim-neo-tree/neo-tree.nvim")
+	-- use("MunifTanjim/nui.nvim")
+	use {
+		"nvim-neo-tree/neo-tree.nvim",
+		branch = "v2.x",
+		requires = {
+			"nvim-lua/plenary.nvim",
+			"nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+			"MunifTanjim/nui.nvim",
+		}
+	}
 
 	--Fuzzy finder
 	use("nvim-telescope/telescope.nvim")

@@ -1,12 +1,50 @@
-2022/12/18-12:28:20.431 559 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/18-12:28:20.431 559 Recovering log #309
-2022/12/18-12:28:20.434 559 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000309.log 
-2022/12/18-13:23:49.234 26bd Level-0 table #314: started
-2022/12/18-13:23:49.275 26bd Level-0 table #314: 1215464 bytes OK
-2022/12/18-13:23:49.277 26bd Delete type=0 #309
-2022/12/18-13:24:06.977 26bd Compacting 1@1 + 1@2 files
-2022/12/18-13:24:06.985 26bd Generated table #315@1: 456 keys, 33854 bytes
-2022/12/18-13:24:06.985 26bd Compacted 1@1 + 1@2 files => 33854 bytes
-2022/12/18-13:24:06.987 26bd compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/12/18-13:24:06.987 26bd Delete type=2 #311
-2022/12/18-13:24:06.987 26bd Delete type=2 #314
+2022/12/21-23:53:18.082 87bb Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/21-23:53:18.082 87bb Recovering log #408
+2022/12/21-23:53:18.085 87bb Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000408.log 
+2022/12/21-23:53:18.085 87bb Delete type=2 #406
+2022/12/21-23:53:18.085 87bb Delete type=2 #409
+2022/12/21-23:54:52.144 885e Level-0 table #413: started
+2022/12/21-23:54:52.153 885e Level-0 table #413: 1072405 bytes OK
+2022/12/21-23:54:52.155 885e Delete type=0 #408
+2022/12/21-23:55:06.066 8628 Compacting 1@1 + 1@2 files
+2022/12/21-23:55:06.074 8628 Generated table #414@1: 594 keys, 41597 bytes
+2022/12/21-23:55:06.075 8628 Compacted 1@1 + 1@2 files => 41597 bytes
+2022/12/21-23:55:06.081 8628 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/21-23:55:06.081 8628 Delete type=2 #413
+2022/12/21-23:55:06.081 8628 Delete type=2 #410
+2022/12/22-00:03:05.286 88a0 Level-0 table #416: started
+2022/12/22-00:03:05.301 88a0 Level-0 table #416: 1055304 bytes OK
+2022/12/22-00:03:05.302 88a0 Delete type=0 #412
+2022/12/22-00:04:55.310 88a0 Compacting 1@1 + 1@2 files
+2022/12/22-00:04:55.316 88a0 Generated table #417@1: 696 keys, 58385 bytes
+2022/12/22-00:04:55.316 88a0 Compacted 1@1 + 1@2 files => 58385 bytes
+2022/12/22-00:04:55.317 88a0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/22-00:10:11.154 889f Level-0 table #419: started
+2022/12/22-00:10:11.164 889f Level-0 table #419: 952609 bytes OK
+2022/12/22-00:10:11.165 889f Delete type=2 #416
+2022/12/22-00:10:11.165 889f Delete type=0 #415
+2022/12/22-00:10:11.165 889f Delete type=2 #414
+2022/12/22-00:10:54.003 87bb Compacting 1@1 + 1@2 files
+2022/12/22-00:10:54.007 87bb Generated table #420@1: 745 keys, 53470 bytes
+2022/12/22-00:10:54.007 87bb Compacted 1@1 + 1@2 files => 53470 bytes
+2022/12/22-00:10:54.008 87bb compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/22-00:10:54.008 87bb Delete type=2 #417
+2022/12/22-00:10:54.008 87bb Delete type=2 #419
+2022/12/22-00:15:59.746 8f58 Level-0 table #422: started
+2022/12/22-00:15:59.753 8f58 Level-0 table #422: 1003629 bytes OK
+2022/12/22-00:15:59.754 8f58 Delete type=0 #418
+2022/12/22-00:16:07.736 8f58 Compacting 1@1 + 1@2 files
+2022/12/22-00:16:07.740 8f58 Generated table #423@1: 824 keys, 57145 bytes
+2022/12/22-00:16:07.740 8f58 Compacted 1@1 + 1@2 files => 57145 bytes
+2022/12/22-00:16:07.740 8f58 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/22-00:16:07.741 8f58 Delete type=2 #420
+2022/12/22-00:16:07.741 8f58 Delete type=2 #422
+2022/12/22-00:22:01.053 87bb Level-0 table #425: started
+2022/12/22-00:22:01.062 87bb Level-0 table #425: 1016468 bytes OK
+2022/12/22-00:22:01.063 87bb Delete type=0 #421
+2022/12/22-00:22:11.025 87bd Compacting 1@1 + 1@2 files
+2022/12/22-00:22:11.030 87bd Generated table #426@1: 901 keys, 69513 bytes
+2022/12/22-00:22:11.030 87bd Compacted 1@1 + 1@2 files => 69513 bytes
+2022/12/22-00:22:11.031 87bd compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/22-00:22:11.031 87bd Delete type=2 #423
+2022/12/22-00:22:11.032 87bd Delete type=2 #425

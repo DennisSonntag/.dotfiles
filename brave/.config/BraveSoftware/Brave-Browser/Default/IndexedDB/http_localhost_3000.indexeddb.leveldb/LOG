@@ -1,3 +1,15 @@
-2022/12/16-12:53:14.141 15d1 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/MANIFEST-000001
-2022/12/16-12:53:14.142 15d1 Recovering log #2163
-2022/12/16-12:53:14.142 15d1 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/002163.log 
+2022/12/21-11:21:32.652 150e Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/MANIFEST-000001
+2022/12/21-11:21:32.652 150e Recovering log #2163
+2022/12/21-11:21:32.652 150e Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/002163.log 
+2022/12/21-11:21:35.865 15ee Level-0 table #2169: started
+2022/12/21-11:21:35.866 15ee Level-0 table #2169: 209 bytes OK
+2022/12/21-11:21:35.866 15ee Delete type=0 #2163
+2022/12/21-11:21:35.867 15ee Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/12/21-11:21:35.867 15ee Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 29170 : 1
+2022/12/21-11:21:35.867 15ee Compacting 1@1 + 1@2 files
+2022/12/21-11:21:35.868 15ee Generated table #2170@1: 36 keys, 2954 bytes
+2022/12/21-11:21:35.868 15ee Compacted 1@1 + 1@2 files => 2954 bytes
+2022/12/21-11:21:35.868 15ee compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/21-11:21:35.868 15ee Delete type=2 #2166
+2022/12/21-11:21:35.868 15ee Delete type=2 #2169
+2022/12/21-11:21:35.869 15ee Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 29170 : 1 .. (end); will stop at (end)

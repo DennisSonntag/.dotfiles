@@ -22,5 +22,10 @@ for _, ls in ipairs(language_servers) do
 		other_fields = ...
 	})
 end
-require('ufo').setup()
---
+
+local status_ok, ufo = pcall(require, "ufo")
+if not status_ok then
+	return
+end
+
+ufo.setup()

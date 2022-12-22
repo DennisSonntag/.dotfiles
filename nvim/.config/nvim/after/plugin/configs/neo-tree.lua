@@ -7,7 +7,7 @@ neotree.setup({
 	close_if_last_window = false, -- Close Neo-tree if it is the last window left in the tab
 	popup_border_style = "rounded",
 	enable_git_status = true,
-	enable_diagnostics = false,
+	enable_diagnostics = true,
 	sort_case_insensitive = false, -- used when sorting files and directories in the tree
 	sort_function = nil, -- use a custom function for sorting files and directories in the tree
 	-- sort_function = function (a,b)
@@ -22,8 +22,8 @@ neotree.setup({
 			enable_character_fade = true
 		},
 		indent = {
-			indent_size = 1,
-			padding = 0, -- extra padding on left hand side
+			indent_size = 2,
+			padding = 1, -- extra padding on left hand side
 			-- indent guides
 			with_markers = true,
 			indent_marker = "│",
@@ -70,8 +70,8 @@ neotree.setup({
 		},
 	},
 	window = {
-		position = "right",
-		width = 20,
+		position = "left",
+		width = 40,
 		mapping_options = {
 			noremap = true,
 			nowait = true,
@@ -83,11 +83,15 @@ neotree.setup({
 			},
 			["<2-LeftMouse>"] = "open",
 			["<cr>"] = "open",
+			["<esc>"] = "revert_preview",
+			["P"] = { "toggle_preview", config = { use_float = true } },
 			["S"] = "open_split",
 			["s"] = "open_vsplit",
 			-- ["S"] = "split_with_window_picker",
 			-- ["s"] = "vsplit_with_window_picker",
 			["t"] = "open_tabnew",
+			-- ["<cr>"] = "open_drop",
+			-- ["t"] = "open_tab_drop",
 			["w"] = "open_with_window_picker",
 			--["P"] = "toggle_preview", -- enter preview mode, which shows the current node without focusing
 			["C"] = "close_node",
@@ -125,9 +129,9 @@ neotree.setup({
 	filesystem = {
 		filtered_items = {
 			visible = false, -- when true, they will just be displayed differently than normal items
-			hide_dotfiles = false,
+			hide_dotfiles = true,
 			hide_gitignored = true,
-			hide_hidden = false, -- only works on Windows for hidden files/directories
+			hide_hidden = true, -- only works on Windows for hidden files/directories
 			hide_by_name = {
 				--"node_modules"
 			},
@@ -141,6 +145,9 @@ neotree.setup({
 			never_show = { -- remains hidden even if visible is toggled to true, this overrides always_show
 				--".DS_Store",
 				--"thumbs.db"
+			},
+			never_show_by_pattern = { -- uses glob style patterns
+				--".null-ls_*",
 			},
 		},
 		follow_current_file = false, -- This will find and focus the file in the active buffer every
