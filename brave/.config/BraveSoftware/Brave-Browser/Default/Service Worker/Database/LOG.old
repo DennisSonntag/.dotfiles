@@ -1,3 +1,6 @@
-2022/12/21-21:32:04.757 2f6 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/MANIFEST-000001
-2022/12/21-21:32:04.757 2f6 Recovering log #4
-2022/12/21-21:32:04.759 2f6 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000004.log 
+2022/12/26-14:03:51.191 2bc Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/MANIFEST-000001
+2022/12/26-14:03:51.191 2bc Recovering log #4
+2022/12/26-14:03:51.194 2bc Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000004.log 
+2022/12/26-15:32:12.761 984 Level-0 table #8: started
+2022/12/26-15:32:12.765 984 Level-0 table #8: 76300 bytes OK
+2022/12/26-15:32:12.767 984 Delete type=0 #4

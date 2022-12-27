@@ -164,6 +164,11 @@ _G.packer_plugins = {
     path = "/home/dennis/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["maximize.nvim"] = {
+    loaded = true,
+    path = "/home/dennis/.local/share/nvim/site/pack/packer/start/maximize.nvim",
+    url = "https://github.com/declancm/maximize.nvim"
+  },
   ["neo-tree.nvim"] = {
     loaded = true,
     path = "/home/dennis/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",

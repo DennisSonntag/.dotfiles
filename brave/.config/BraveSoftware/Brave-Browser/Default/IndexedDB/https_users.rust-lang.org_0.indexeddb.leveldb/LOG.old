@@ -1,2 +1,7 @@
-2022/12/21-13:42:29.662 49ab Creating DB /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_users.rust-lang.org_0.indexeddb.leveldb since it was missing.
-2022/12/21-13:42:29.663 49ab Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_users.rust-lang.org_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/22-21:37:08.149 790e Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_users.rust-lang.org_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/22-21:37:08.149 790e Recovering log #3
+2022/12/22-21:37:08.149 790e Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_users.rust-lang.org_0.indexeddb.leveldb/000003.log 
+2022/12/22-21:44:05.234 5ecc Level-0 table #5: started
+2022/12/22-21:44:05.235 5ecc Level-0 table #5: 4738 bytes OK
+2022/12/22-21:44:05.236 5ecc Delete type=0 #3
+2022/12/22-21:44:05.237 5ecc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

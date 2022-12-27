@@ -9,7 +9,7 @@ vim.g.mapleader = " "
 set.smartindent = true
 set.cursorline = true
 set.splitbelow = true
-set.cmdheight = 0
+set.cmdheight = 1
 set.splitright = true
 set.timeoutlen = 1000
 set.incsearch = true
@@ -25,3 +25,8 @@ set.wrap = false
 set.tabstop = 4
 set.mouse = "a"
 set.nu = true
+
+
+
+
+

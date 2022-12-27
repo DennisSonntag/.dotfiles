@@ -22,12 +22,13 @@ dashboard.section.header.val = {
 }
 dashboard.section.buttons.val = {
 	dashboard.button("n", " " .. " New file", "<cmd>ene <BAR> startinsert <CR>"),
-	dashboard.button("e", " " .. " File tree", "<cmd>NeoTreeFloat<CR>"),
+	dashboard.button("e", " " .. " File tree", "<cmd>Neotree toggle float<CR>"),
 	dashboard.button("f", " " .. " Find file", "<cmd>Telescope find_files <CR>"),
 	dashboard.button("t", " " .. " Find text", "<cmd>Telescope live_grep <CR>"),
 	dashboard.button("c", " " .. " Config", "<cmd>e ~/.config/nvim/init.lua <CR>"),
 	dashboard.button("q", " " .. " Quit", "<cmd>qa<CR>"),
 	--[[ dashboard.button("r", " " .. " Recent files", ":Telescope oldfiles <CR>"), ]]
+
 }
 local function footer()
 	return "BEANZZ ANYONE?!"

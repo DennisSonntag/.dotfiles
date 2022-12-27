@@ -1,21 +1,9 @@
-2022/12/21-21:32:05.206 2ea Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/MANIFEST-000001
-2022/12/21-21:32:05.206 2ea Recovering log #840
-2022/12/21-21:32:05.222 2ea Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/000840.log 
-2022/12/21-21:32:16.385 2ea Level-0 table #844: started
-2022/12/21-21:32:16.401 2ea Level-0 table #844: 2205852 bytes OK
-2022/12/21-21:32:16.402 2ea Delete type=0 #840
-2022/12/21-21:32:16.402 2ea Compacting 4@0 + 1@1 files
-2022/12/21-21:32:16.433 2ea Generated table #845@0: 16 keys, 2278046 bytes
-2022/12/21-21:32:16.434 2ea Compacted 4@0 + 1@1 files => 2278046 bytes
-2022/12/21-21:32:16.434 2ea compacted to: files[ 0 2 1 0 0 0 0 ]
-2022/12/21-21:32:16.434 2ea Delete type=2 #844
-2022/12/21-21:32:16.434 2ea Delete type=2 #841
-2022/12/21-21:32:16.434 2ea Delete type=2 #833
-2022/12/21-21:32:16.434 2ea Delete type=2 #838
-2022/12/21-21:32:16.434 2ea Delete type=2 #835
-2022/12/21-21:52:05.699 2f4 Level-0 table #847: started
-2022/12/21-21:52:05.725 2f4 Level-0 table #847: 2592455 bytes OK
-2022/12/21-21:52:05.726 2f4 Delete type=0 #843
-2022/12/21-22:03:52.504 2c3 Level-0 table #849: started
-2022/12/21-22:03:52.529 2c3 Level-0 table #849: 2270948 bytes OK
-2022/12/21-22:03:52.530 2c3 Delete type=0 #846
+2022/12/26-14:03:51.710 284 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/MANIFEST-000001
+2022/12/26-14:03:51.710 284 Recovering log #982
+2022/12/26-14:03:51.710 284 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/000982.log 
+2022/12/26-14:03:57.109 2af Level-0 table #986: started
+2022/12/26-14:03:57.130 2af Level-0 table #986: 2596276 bytes OK
+2022/12/26-14:03:57.132 2af Delete type=0 #982
+2022/12/26-15:23:52.910 550 Level-0 table #988: started
+2022/12/26-15:23:52.969 550 Level-0 table #988: 2978691 bytes OK
+2022/12/26-15:23:52.970 550 Delete type=0 #985

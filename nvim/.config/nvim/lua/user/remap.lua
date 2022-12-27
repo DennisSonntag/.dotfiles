@@ -42,7 +42,7 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 --Folds
 vim.keymap.set("n", "<A-f>", "<cmd>lua require('fold-cycle').toggle_all()<CR>")
 
---Smart Splits
+-- Splits
 vim.keymap.set('n', '<A-h>', require('smart-splits').resize_left)
 vim.keymap.set('n', '<A-j>', require('smart-splits').resize_down)
 vim.keymap.set('n', '<A-k>', require('smart-splits').resize_up)
@@ -50,5 +50,8 @@ vim.keymap.set('n', '<A-l>', require('smart-splits').resize_right)
 
 vim.keymap.set("n", "<leader>sv", "<cmd>vsplit<CR>")
 vim.keymap.set("n", "<leader>sh", "<cmd>split<CR>")
+vim.keymap.set("n", "<leader>se", "<C-w>=")
+vim.keymap.set("n", "<leader>ss", "<C-w>R")
+vim.keymap.set("n", "<leader>stv", "<C-w>t<C-w>H")
+vim.keymap.set("n", "<leader>sth", "<C-w>t<C-w>K")
 vim.keymap.set("n", "<leader>sm", "<cmd>lua require('maximize').toggle()<CR>")
---[[ vim.keymap.set("n","<C-S-s>", "<cmd>split<CR>") ]]
