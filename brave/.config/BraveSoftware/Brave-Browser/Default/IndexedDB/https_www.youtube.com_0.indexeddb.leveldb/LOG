@@ -1,3 +1,12 @@
-2022/12/26-19:10:16.769 464 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/26-19:10:16.769 464 Recovering log #571
-2022/12/26-19:10:16.776 464 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000571.log 
+2023/01/08-22:21:32.837 495 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/08-22:21:32.837 495 Recovering log #294
+2023/01/08-22:21:32.843 495 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000294.log 
+2023/01/08-22:46:45.729 4bc Level-0 table #299: started
+2023/01/08-22:46:45.742 4bc Level-0 table #299: 1163554 bytes OK
+2023/01/08-22:46:45.746 4bc Delete type=0 #294
+2023/01/08-22:48:29.224 495 Compacting 1@1 + 1@2 files
+2023/01/08-22:48:29.236 495 Generated table #300@1: 729 keys, 40044 bytes
+2023/01/08-22:48:29.236 495 Compacted 1@1 + 1@2 files => 40044 bytes
+2023/01/08-22:48:29.240 495 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/08-22:48:29.240 495 Delete type=2 #296
+2023/01/08-22:48:29.240 495 Delete type=2 #299

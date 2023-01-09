@@ -1,15 +1,3 @@
-2022/12/25-19:37:26.407 11a7 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/25-19:37:26.407 11a7 Recovering log #88
-2022/12/25-19:37:26.413 11a7 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000088.log 
-2022/12/25-19:39:43.936 1a23 Level-0 table #93: started
-2022/12/25-19:39:43.945 1a23 Level-0 table #93: 2722777 bytes OK
-2022/12/25-19:39:43.946 1a23 Delete type=0 #88
-2022/12/25-19:39:43.947 1a23 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2022/12/25-19:39:43.947 1a23 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x03\x01'\x007\x00b\x005\x00f\x006\x00c\x00f\x00e\x00e\x001\x004\x00e\x001\x00b\x001\x00d\x00b\x00a\x00d\x00f\x000\x003\x00f\x000\x00b\x002\x00a\x00b\x002\x000\x00a\x00a\x00_\x003\x00_\x002\x00:\x000\x000' @ 84011 : 0
-2022/12/25-19:39:43.947 1a23 Compacting 1@1 + 1@2 files
-2022/12/25-19:39:43.969 1a23 Generated table #94@1: 3579 keys, 2023850 bytes
-2022/12/25-19:39:43.969 1a23 Compacted 1@1 + 1@2 files => 2023850 bytes
-2022/12/25-19:39:43.969 1a23 compacted to: files[ 0 0 4 0 0 0 0 ]
-2022/12/25-19:39:43.969 1a23 Delete type=2 #93
-2022/12/25-19:39:43.969 1a23 Delete type=2 #90
-2022/12/25-19:39:43.970 1a23 Manual compaction at level-1 from '\x00\x01\x03\x03\x01'\x007\x00b\x005\x00f\x006\x00c\x00f\x00e\x00e\x001\x004\x00e\x001\x00b\x001\x00d\x00b\x00a\x00d\x00f\x000\x003\x00f\x000\x00b\x002\x00a\x00b\x002\x000\x00a\x00a\x00_\x003\x00_\x002\x00:\x000\x000' @ 84011 : 0 .. (end); will stop at (end)
+2023/01/04-18:46:26.121 22f2 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/04-18:46:26.122 22f2 Recovering log #101
+2023/01/04-18:46:26.122 22f2 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000101.log 

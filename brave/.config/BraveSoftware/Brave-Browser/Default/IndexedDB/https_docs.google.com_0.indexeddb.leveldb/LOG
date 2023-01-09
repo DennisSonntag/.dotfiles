@@ -1,15 +1,15 @@
-2022/12/26-12:37:34.729 31d Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/26-12:37:34.729 31d Recovering log #55
-2022/12/26-12:37:34.729 31d Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000055.log 
-2022/12/26-13:01:35.255 542 Level-0 table #60: started
-2022/12/26-13:01:35.256 542 Level-0 table #60: 226 bytes OK
-2022/12/26-13:01:35.256 542 Delete type=0 #55
-2022/12/26-13:01:35.257 542 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2022/12/26-13:01:35.257 542 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 704 : 1
-2022/12/26-13:01:35.257 542 Compacting 1@1 + 1@2 files
-2022/12/26-13:01:35.258 542 Generated table #61@1: 206 keys, 3116 bytes
-2022/12/26-13:01:35.258 542 Compacted 1@1 + 1@2 files => 3116 bytes
-2022/12/26-13:01:35.259 542 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/12/26-13:01:35.259 542 Delete type=2 #60
-2022/12/26-13:01:35.259 542 Delete type=2 #57
-2022/12/26-13:01:35.259 542 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 704 : 1 .. (end); will stop at (end)
+2023/01/04-18:46:29.169 22f2 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/04-18:46:29.169 22f2 Recovering log #59
+2023/01/04-18:46:29.169 22f2 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000059.log 
+2023/01/04-23:07:32.864 3263 Level-0 table #64: started
+2023/01/04-23:07:32.867 3263 Level-0 table #64: 209 bytes OK
+2023/01/04-23:07:32.871 3263 Delete type=0 #59
+2023/01/04-23:07:32.871 3263 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/01/04-23:07:32.871 3263 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 706 : 1
+2023/01/04-23:07:32.871 3263 Compacting 1@1 + 1@2 files
+2023/01/04-23:07:32.874 3263 Generated table #65@1: 206 keys, 3116 bytes
+2023/01/04-23:07:32.874 3263 Compacted 1@1 + 1@2 files => 3116 bytes
+2023/01/04-23:07:32.878 3263 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/04-23:07:32.878 3263 Delete type=2 #64
+2023/01/04-23:07:32.878 3263 Delete type=2 #61
+2023/01/04-23:07:32.878 3263 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 706 : 1 .. (end); will stop at (end)

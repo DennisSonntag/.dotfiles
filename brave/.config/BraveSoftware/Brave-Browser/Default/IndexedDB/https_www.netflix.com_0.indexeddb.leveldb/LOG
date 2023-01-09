@@ -1,6 +1,21 @@
-2022/12/17-09:45:11.085 318 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/17-09:45:11.085 318 Recovering log #65
-2022/12/17-09:45:11.096 318 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000065.log 
-2022/12/17-09:45:12.893 320 Level-0 table #70: started
-2022/12/17-09:45:12.911 320 Level-0 table #70: 2238320 bytes OK
-2022/12/17-09:45:12.913 320 Delete type=0 #65
+2023/01/08-00:33:05.878 64fa Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/08-00:33:05.878 64fa Recovering log #69
+2023/01/08-00:33:05.878 64fa Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000069.log 
+2023/01/08-00:34:43.097 64fa Compacting 1@1 + 1@2 files
+2023/01/08-00:34:43.103 64fa Generated table #72@1: 53 keys, 25069 bytes
+2023/01/08-00:34:43.103 64fa Compacted 1@1 + 1@2 files => 25069 bytes
+2023/01/08-00:34:43.107 64fa compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/08-00:34:43.107 64fa Delete type=2 #70
+2023/01/08-00:34:43.107 64fa Delete type=2 #67
+2023/01/08-00:41:43.248 64a0 Level-0 table #74: started
+2023/01/08-00:41:43.255 64a0 Level-0 table #74: 711281 bytes OK
+2023/01/08-00:41:43.259 64a0 Delete type=0 #69
+2023/01/08-00:41:43.259 626c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/01/08-00:41:43.259 626c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x02\x00v\x00b' @ 167229 : 1
+2023/01/08-00:41:43.259 626c Compacting 1@1 + 1@2 files
+2023/01/08-00:41:43.263 626c Generated table #75@1: 50 keys, 21029 bytes
+2023/01/08-00:41:43.263 626c Compacted 1@1 + 1@2 files => 21029 bytes
+2023/01/08-00:41:43.267 626c compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/08-00:41:43.267 626c Delete type=2 #74
+2023/01/08-00:41:43.267 626c Delete type=2 #72
+2023/01/08-00:41:43.267 626c Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x02\x00v\x00b' @ 167229 : 1 .. (end); will stop at (end)

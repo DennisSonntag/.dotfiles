@@ -14,8 +14,8 @@ spotify
 discord
 
 ## Power Menu
-#super + x
-/home/dennis/.config/rofi/powermenu/type-5/powermenu.sh
+##super + x
+# /home/dennis/.config/rofi/powermenu/type-5/powermenu.sh
 
 ## Screenshot
 # Print

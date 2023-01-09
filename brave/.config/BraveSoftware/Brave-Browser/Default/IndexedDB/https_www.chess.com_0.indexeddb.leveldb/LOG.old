@@ -1,3 +1,30 @@
-2022/11/06-21:31:20.849 4b7 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chess.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/06-21:31:20.849 4b7 Recovering log #22
-2022/11/06-21:31:20.854 4b7 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chess.com_0.indexeddb.leveldb/000022.log 
+2022/12/22-17:30:07.605 41c Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chess.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/22-17:30:07.605 41c Recovering log #22
+2022/12/22-17:30:07.610 41c Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chess.com_0.indexeddb.leveldb/000022.log 
+2022/12/22-17:51:32.120 6f04 Level-0 table #28: started
+2022/12/22-17:51:32.123 6f04 Level-0 table #28: 87351 bytes OK
+2022/12/22-17:51:32.124 6f04 Delete type=0 #22
+2022/12/22-17:51:32.124 6f04 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x03\x00\x00\xc8\x05\x00F\x00I\x00L\x00E\x00S' @ 126945 : 1
+2022/12/22-17:51:32.124 6f04 Compacting 1@0 + 2@1 files
+2022/12/22-17:51:32.158 6f04 Generated table #29@0: 51015 keys, 2219188 bytes
+2022/12/22-17:51:32.184 6f04 Generated table #30@0: 17833 keys, 1863462 bytes
+2022/12/22-17:51:32.184 6f04 Compacted 1@0 + 2@1 files => 4082650 bytes
+2022/12/22-17:51:32.185 6f04 compacted to: files[ 0 2 1 0 0 0 0 ]
+2022/12/22-17:51:32.185 6f04 Delete type=2 #24
+2022/12/22-17:51:32.185 6f04 Delete type=2 #28
+2022/12/22-17:51:32.185 6f04 Delete type=2 #25
+2022/12/22-17:51:32.185 6f04 Manual compaction at level-0 from '\x00\x03\x00\x00\xc8\x05\x00F\x00I\x00L\x00E\x00S' @ 126945 : 1 .. (end); will stop at (end)
+2022/12/22-17:51:32.185 6f04 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x01\x013\x00r\x00n\x00b\x001\x00k\x001\x00n\x00r\x00/\x00p\x00p\x00p\x00p\x001\x00p\x00B\x00p\x00/\x008\x00/\x008\x00/\x001\x00b\x005\x00q\x00/\x008\x00/\x00P\x001\x00P\x00P\x00P\x001\x00B\x00p\x00/\x00R\x00N\x001\x00Q\x001\x00K\x00N\x00R\x00 \x00b\x00 \x00k\x00q' @ 43258 : 1
+2022/12/22-17:51:32.185 6f04 Compacting 1@1 + 1@2 files
+2022/12/22-17:51:32.209 6f04 Generated table #31@1: 7218 keys, 1865452 bytes
+2022/12/22-17:51:32.209 6f04 Compacted 1@1 + 1@2 files => 1865452 bytes
+2022/12/22-17:51:32.210 6f04 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/22-17:51:32.210 6f04 Delete type=2 #5
+2022/12/22-17:51:32.210 6f04 Delete type=2 #29
+2022/12/22-17:51:32.211 6f04 Manual compaction at level-1 from '\x00\x02\x01\x01\x013\x00r\x00n\x00b\x001\x00k\x001\x00n\x00r\x00/\x00p\x00p\x00p\x00p\x001\x00p\x00B\x00p\x00/\x008\x00/\x008\x00/\x001\x00b\x005\x00q\x00/\x008\x00/\x00P\x001\x00P\x00P\x00P\x001\x00B\x00p\x00/\x00R\x00N\x001\x00Q\x001\x00K\x00N\x00R\x00 \x00b\x00 \x00k\x00q' @ 43258 : 1 .. (end); will stop at '\x00\x03\x00\x00\xc8\x05\x00F\x00I\x00L\x00E\x00S' @ 126945 : 1
+2022/12/22-17:51:32.211 6f04 Compacting 1@1 + 0@2 files
+2022/12/22-17:51:32.235 6f04 Generated table #32@1: 17833 keys, 1863462 bytes
+2022/12/22-17:51:32.235 6f04 Compacted 1@1 + 0@2 files => 1863462 bytes
+2022/12/22-17:51:32.236 6f04 compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/12/22-17:51:32.237 6f04 Delete type=2 #30
+2022/12/22-17:51:32.237 6f04 Manual compaction at level-1 from '\x00\x03\x00\x00\xc8\x05\x00F\x00I\x00L\x00E\x00S' @ 126945 : 1 .. (end); will stop at (end)

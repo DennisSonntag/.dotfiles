@@ -1,3 +1,15 @@
-2022/12/22-18:42:54.062 452 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/22-18:42:54.063 452 Recovering log #88
-2022/12/22-18:42:54.070 452 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000088.log 
+2023/01/04-00:22:01.810 d71 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/04-00:22:01.810 d71 Recovering log #96
+2023/01/04-00:22:01.815 d71 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000096.log 
+2023/01/04-01:03:49.113 1625 Level-0 table #102: started
+2023/01/04-01:03:49.123 1625 Level-0 table #102: 2830333 bytes OK
+2023/01/04-01:03:49.127 1625 Delete type=0 #96
+2023/01/04-01:03:49.128 15f4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/01/04-01:03:49.128 15f4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x03\x01'\x005\x001\x00d\x003\x008\x002\x006\x007\x00a\x00e\x009\x00a\x004\x004\x003\x002\x000\x00f\x00f\x00d\x003\x004\x005\x002\x007\x004\x00d\x003\x00e\x005\x00e\x006\x00_\x003\x00_\x005\x00:\x000\x000' @ 90239 : 1
+2023/01/04-01:03:49.128 15f4 Compacting 1@1 + 1@2 files
+2023/01/04-01:03:49.149 15f4 Generated table #103@1: 3580 keys, 1982780 bytes
+2023/01/04-01:03:49.149 15f4 Compacted 1@1 + 1@2 files => 1982780 bytes
+2023/01/04-01:03:49.153 15f4 compacted to: files[ 0 0 4 0 0 0 0 ]
+2023/01/04-01:03:49.153 15f4 Delete type=2 #102
+2023/01/04-01:03:49.153 15f4 Delete type=2 #99
+2023/01/04-01:03:49.153 15f4 Manual compaction at level-1 from '\x00\x01\x03\x03\x01'\x005\x001\x00d\x003\x008\x002\x006\x007\x00a\x00e\x009\x00a\x004\x004\x003\x002\x000\x00f\x00f\x00d\x003\x004\x005\x002\x007\x004\x00d\x003\x00e\x005\x00e\x006\x00_\x003\x00_\x005\x00:\x000\x000' @ 90239 : 1 .. (end); will stop at (end)

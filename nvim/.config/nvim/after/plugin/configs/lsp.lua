@@ -3,10 +3,6 @@ if not status_ok then
 	return
 end
 
-local status_ok, navic = pcall(require, "nvim-navic")
-if not status_ok then
-	return
-end
 
 
 
@@ -54,9 +50,6 @@ vim.diagnostic.config({
 
 lsp.on_attach(function(client, bufnr)
 	local opts = { buffer = bufnr, remap = false }
-	if client.server_capabilities.documentSymbolProvider then
-		navic.attach(client, bufnr)
-	end
 
 
 

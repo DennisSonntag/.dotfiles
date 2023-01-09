@@ -31,7 +31,7 @@ return require("packer").startup(function(use)
 	use("akinsho/toggleterm.nvim")
 
 	--Winbar
-	use("SmiteshP/nvim-navic")
+	-- use("SmiteshP/nvim-navic")
 
 
 	--Smart Splits
@@ -94,6 +94,7 @@ return require("packer").startup(function(use)
 	--Bufferline
 	use("akinsho/bufferline.nvim")
 	use("moll/vim-bbye")
+
 
 	--Lsp
 	use {

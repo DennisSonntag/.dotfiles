@@ -1,7 +1,3 @@
-2022/11/13-00:40:33.147 1075 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/13-00:40:33.147 1075 Recovering log #3
-2022/11/13-00:40:33.148 1075 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/000003.log 
-2022/11/13-00:41:17.265 1079 Level-0 table #5: started
-2022/11/13-00:41:17.269 1079 Level-0 table #5: 14660 bytes OK
-2022/11/13-00:41:17.273 1079 Delete type=0 #3
-2022/11/13-00:41:17.273 1079 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/01/03-18:58:04.581 11e8 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/03-18:58:04.581 11e8 Recovering log #7
+2023/01/03-18:58:04.581 11e8 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/000007.log 

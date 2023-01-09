@@ -1,6 +1,3 @@
-2022/12/22-18:41:03.589 88f3 Creating DB /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.yahoo.com_0.indexeddb.leveldb since it was missing.
-2022/12/22-18:41:03.590 88f3 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.yahoo.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/22-18:41:28.494 12350 Level-0 table #5: started
-2022/12/22-18:41:28.495 12350 Level-0 table #5: 7627 bytes OK
-2022/12/22-18:41:28.495 12350 Delete type=0 #3
-2022/12/22-18:41:28.495 12350 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/12/27-15:40:57.436 c5ef Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.yahoo.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/27-15:40:57.437 c5ef Recovering log #4
+2022/12/27-15:40:57.437 c5ef Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.yahoo.com_0.indexeddb.leveldb/000004.log 

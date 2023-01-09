@@ -197,28 +197,28 @@ awful.screen.connect_for_each_screen(function(s)
 	}
 
 	-- Create the wibox
-	--[[ s.mywibox = awful.wibar({ position = "top", screen = s }) ]]
+	s.mywibox = awful.wibar({ position = "top", screen = s })
 
 	-- Add widgets to the wibox
-	--[[ s.mywibox:setup { ]]
-	--[[ 	layout = wibox.layout.align.horizontal, ]]
-	--[[ 	{ -- Left widgets ]]
-	--[[ 		layout = wibox.layout.fixed.horizontal, ]]
-	--[[ 		mylauncher, ]]
-	--[[ 		s.mytaglist, ]]
-	--[[ 		s.mypromptbox, ]]
-	--[[ 	}, ]]
-	--[[ 	s.mytasklist, -- Middle widget ]]
-	--[[ 	{ -- Right widgets ]]
-	--[[ 		layout = wibox.layout.fixed.horizontal, ]]
-	--[[ 		mykeyboardlayout, ]]
-	--[[ 		wibox.widget.systray(), ]]
-	--[[ 		mytextclock, ]]
-	--[[ 		s.mylayoutbox, ]]
-	--[[ 	}, ]]
-	--[[ } ]]
+	s.mywibox:setup {
+		layout = wibox.layout.align.horizontal,
+		{ -- Left widgets
+			layout = wibox.layout.fixed.horizontal,
+			--[[ mylauncher, ]]
+			s.mytaglist,
+			s.mypromptbox,
+		},
+		s.mytasklist, -- Middle widget
+		{ -- Right widgets
+			layout = wibox.layout.fixed.horizontal,
+			mykeyboardlayout,
+			wibox.widget.systray(),
+			mytextclock,
+			--[[ s.mylayoutbox, ]]
+		},
+	}
 end)
---[[ }}} ]]
+-- }}}
 
 -- {{{ Mouse bindings
 root.buttons(gears.table.join(
@@ -251,9 +251,11 @@ globalkeys = gears.table.join(
 		end,
 		{ description = "focus previous by index", group = "client" }
 	),
+	awful.key({ modkey, }, "w", function() mymainmenu:show() end,
+		{ description = "show main menu", group = "awesome" }),
 
 	-- Layout manipulation
-
+	
 	awful.key({ modkey, "Shift" }, "j", function() awful.client.swap.byidx(1) end,
 		{ description = "swap with next client by index", group = "client" }),
 	awful.key({ modkey, "Shift" }, "k", function() awful.client.swap.byidx(-1) end,
@@ -319,7 +321,7 @@ globalkeys = gears.table.join(
 	end,
 		{ description = "run prompt", group = "launcher" }),
 
-	awful.key({ modkey, "Shift" }, "x",
+	awful.key({ modkey, "Shift"}, "x",
 		function()
 			awful.prompt.run {
 				prompt       = "Run Lua code: ",
@@ -332,7 +334,7 @@ globalkeys = gears.table.join(
 )
 
 clientkeys = gears.table.join(
-	awful.key({ modkey, "Shift" }, "f",
+	awful.key({ modkey,"Shift" }, "f",
 		function(c)
 			c.fullscreen = not c.fullscreen
 			c:raise()
@@ -448,8 +450,7 @@ root.keys(globalkeys)
 awful.rules.rules = {
 	-- All clients will match this rule.
 	{ rule = {},
-		--[[ properties = { border_width = beautiful.border_width, ]]
-		properties = { border_width = 0,
+		properties = { border_width = beautiful.border_width,
 			border_color = beautiful.border_normal,
 			focus = awful.client.focus.filter,
 			raise = true,
@@ -480,7 +481,7 @@ awful.rules.rules = {
 			"xtightvncviewer",
 
 			--Bevy projects
-			"Galculator"
+			"learning_bevy"
 		},
 
 		-- Note that the name property shown in xprop might be set slightly after creation of the client
@@ -496,9 +497,9 @@ awful.rules.rules = {
 	}, properties = { floating = true } },
 
 	-- Add titlebars to normal clients and dialogs
-	--[[ { rule_any = { type = { "normal", "dialog" } ]]
-	--[[ }, properties = { titlebars_enabled = false } ]]
-	--[[ }, ]]
+	{ rule_any = { type = { "normal", "dialog" }
+	}, properties = { titlebars_enabled = false }
+	},
 
 	-- Set Firefox to always map on the tag named "2" on screen 1.
 	-- { rule = { class = "Firefox" },
@@ -568,16 +569,23 @@ end)
 
 client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
+-- }}}
 
 --Gaps
 beautiful.useless_gap = 5
 
 --Autostart
-awful.spawn.with_shell("nitrogen --restore &")
-awful.spawn.with_shell("polybar &")
-awful.spawn.with_shell("dxhd &")
 awful.spawn.with_shell("xset r rate 250 60 &")
-awful.spawn.with_shell("picom &")
 awful.spawn.with_shell("flameshot &")
+awful.spawn.with_shell("picom --experimental-backends &")
 awful.spawn.with_shell("lxqt-policykit-agent &")
+awful.spawn.with_shell("nitrogen --restore &")
+awful.spawn.with_shell("dxhd &")
+
+--Rounded Corners
+client.connect_signal("manage", function(c)
+	c.shape = function(cr, w, h)
+		gears.shape.rounded_rect(cr, w, h, 8)
+	end
+end)
 

@@ -1,3 +1,12 @@
-2022/12/15-18:37:45.750 274d Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/15-18:37:45.750 274d Recovering log #25
-2022/12/15-18:37:45.750 274d Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000025.log 
+2023/01/03-00:21:34.793 1c40 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/03-00:21:34.793 1c40 Recovering log #40
+2023/01/03-00:21:34.800 1c40 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000040.log 
+2023/01/03-00:21:36.018 1c05 Level-0 table #46: started
+2023/01/03-00:21:36.040 1c05 Level-0 table #46: 1280558 bytes OK
+2023/01/03-00:21:36.044 1c05 Delete type=0 #40
+2023/01/03-00:21:45.711 1c08 Compacting 1@1 + 1@2 files
+2023/01/03-00:21:45.724 1c08 Generated table #47@1: 87 keys, 24865 bytes
+2023/01/03-00:21:45.724 1c08 Compacted 1@1 + 1@2 files => 24865 bytes
+2023/01/03-00:21:45.732 1c08 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/03-00:21:45.732 1c08 Delete type=2 #43
+2023/01/03-00:21:45.732 1c08 Delete type=2 #46

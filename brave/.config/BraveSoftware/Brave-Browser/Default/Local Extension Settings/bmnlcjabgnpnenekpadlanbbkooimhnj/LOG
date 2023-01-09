@@ -1,3 +1,6 @@
-2022/12/26-19:18:50.561 b87 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/MANIFEST-000001
-2022/12/26-19:18:50.561 b87 Recovering log #990
-2022/12/26-19:18:50.561 b87 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/000990.log 
+2023/01/08-22:21:22.775 4b8 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/MANIFEST-000001
+2023/01/08-22:21:22.775 4b8 Recovering log #1285
+2023/01/08-22:21:22.776 4b8 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/001285.log 
+2023/01/08-22:41:23.895 495 Level-0 table #1289: started
+2023/01/08-22:41:23.931 495 Level-0 table #1289: 2615308 bytes OK
+2023/01/08-22:41:23.935 495 Delete type=0 #1285

@@ -1,0 +1,36 @@
+2022/12/30-12:41:14.351 3f0 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_cronometer.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/30-12:41:14.352 3f0 Recovering log #14
+2022/12/30-12:41:14.352 3f0 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_cronometer.com_0.indexeddb.leveldb/000014.log 
+2022/12/30-12:41:14.352 3f0 Delete type=2 #13
+2022/12/30-12:41:14.526 3f0 Level-0 table #19: started
+2022/12/30-12:41:14.529 3f0 Level-0 table #19: 604 bytes OK
+2022/12/30-12:41:14.534 3f0 Delete type=0 #14
+2022/12/30-12:41:14.534 3f0 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 445 : 1
+2022/12/30-12:41:14.534 3f0 Compacting 1@0 + 1@1 files
+2022/12/30-12:41:14.537 3f0 Generated table #20@0: 226 keys, 3810 bytes
+2022/12/30-12:41:14.537 3f0 Compacted 1@0 + 1@1 files => 3810 bytes
+2022/12/30-12:41:14.541 3f0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/30-12:41:14.541 3f0 Delete type=2 #19
+2022/12/30-12:41:14.541 3f0 Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 445 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/30-12:41:14.584 3cb Level-0 table #22: started
+2022/12/30-12:41:14.587 3cb Level-0 table #22: 1428 bytes OK
+2022/12/30-12:41:14.595 3cb Delete type=0 #18
+2022/12/30-12:41:14.595 3cb Delete type=2 #16
+2022/12/30-12:41:14.595 3cb Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0a\x00\x00\x05' @ 462 : 1
+2022/12/30-12:41:14.595 3cb Compacting 1@0 + 1@1 files
+2022/12/30-12:41:14.599 3cb Generated table #23@0: 230 keys, 4004 bytes
+2022/12/30-12:41:14.599 3cb Compacted 1@0 + 1@1 files => 4004 bytes
+2022/12/30-12:41:14.602 3cb compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/30-12:41:14.602 3cb Delete type=2 #22
+2022/12/30-12:41:14.602 3cb Manual compaction at level-0 from '\x00\x0a\x00\x00\x05' @ 462 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/30-12:41:16.096 3cb Level-0 table #25: started
+2022/12/30-12:41:16.104 3cb Level-0 table #25: 1583 bytes OK
+2022/12/30-12:41:16.108 3cb Delete type=2 #20
+2022/12/30-12:41:16.108 3cb Delete type=0 #21
+2022/12/30-12:41:16.108 3cb Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x00\x00\x05' @ 507 : 1
+2022/12/30-12:41:16.108 3cb Compacting 1@0 + 1@1 files
+2022/12/30-12:41:16.111 3cb Generated table #26@0: 232 keys, 3868 bytes
+2022/12/30-12:41:16.111 3cb Compacted 1@0 + 1@1 files => 3868 bytes
+2022/12/30-12:41:16.114 3cb compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/30-12:41:16.114 3cb Delete type=2 #25
+2022/12/30-12:41:16.114 3cb Manual compaction at level-0 from '\x00\x0b\x00\x00\x05' @ 507 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,14 +1,13 @@
-2022/12/24-18:39:38.355 b24 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/24-18:39:38.355 b24 Recovering log #516
-2022/12/24-18:39:38.356 b24 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000516.log 
-2022/12/24-18:39:38.356 b24 Delete type=2 #514
-2022/12/24-18:39:38.666 b21 Level-0 table #521: started
-2022/12/24-18:39:38.666 b21 Level-0 table #521: 2292 bytes OK
-2022/12/24-18:39:38.667 b21 Delete type=0 #516
-2022/12/24-18:39:38.667 b21 Manual compaction at level-0 from '\x00\x8b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x8c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x8b\x00\x00\x05' @ 10227 : 1
-2022/12/24-18:39:38.667 b21 Compacting 1@0 + 1@1 files
-2022/12/24-18:39:38.668 b21 Generated table #522@0: 52 keys, 1932 bytes
-2022/12/24-18:39:38.668 b21 Compacted 1@0 + 1@1 files => 1932 bytes
-2022/12/24-18:39:38.669 b21 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/12/24-18:39:38.669 b21 Delete type=2 #521
-2022/12/24-18:39:38.669 b21 Manual compaction at level-0 from '\x00\x8b\x00\x00\x05' @ 10227 : 1 .. '\x00\x8c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/30-19:13:26.482 d65 Reusing MANIFEST /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/30-19:13:26.483 d65 Recovering log #560
+2022/12/30-19:13:26.483 d65 Reusing old log /home/dennis/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000560.log 
+2022/12/30-19:13:26.879 cf0 Level-0 table #565: started
+2022/12/30-19:13:26.882 cf0 Level-0 table #565: 739 bytes OK
+2022/12/30-19:13:26.886 cf0 Delete type=0 #560
+2022/12/30-19:13:26.886 cf0 Manual compaction at level-0 from '\x00\x95\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x96\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/30-19:14:06.937 cf1 Compacting 1@1 + 1@2 files
+2022/12/30-19:14:06.948 cf1 Generated table #566@1: 57 keys, 4429 bytes
+2022/12/30-19:14:06.948 cf1 Compacted 1@1 + 1@2 files => 4429 bytes
+2022/12/30-19:14:06.951 cf1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/30-19:14:06.951 cf1 Delete type=2 #562
+2022/12/30-19:14:06.951 cf1 Delete type=2 #565
